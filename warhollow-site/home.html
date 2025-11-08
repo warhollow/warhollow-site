@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warhollow — Sovereign Compute</title>
+    <meta name="description" content="Warhollow is building privacy‑native infrastructure for AI and crypto systems. Bare‑metal performance. Encrypted by design. Crypto‑ready from day one." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+      ::selection { background: rgba(34, 211, 238, 0.3); color: #a5f3fc }
+    </style>
+  </head>
+  <body class="min-h-screen bg-black text-zinc-200 antialiased selection:bg-cyan-500/30 selection:text-cyan-200">
+    <!-- Ambient background -->
+    <div class="pointer-events-none fixed inset-0 [background:radial-gradient(1200px_600px_at_50%_-10%,rgba(14,165,233,0.15),transparent_60%),radial-gradient(900px_500px_at_10%_10%,rgba(56,189,248,0.12),transparent_50%),radial-gradient(800px_600px_at_90%_20%,rgba(6,182,212,0.12),transparent_60%)]"></div>
+    <div class="pointer-events-none fixed inset-0 [mask-image:radial-gradient(80%_60%_at_50%_20%,black,transparent)]"></div>
+
+    <!-- Nav -->
+    <header class="sticky top-0 z-30 backdrop-blur supports-[backdrop-filter]:bg-black/30">
+      <div class="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <img src="assets/wh-symbol.png" alt="Warhollow symbol" class="h-10 w-10 object-contain brightness-110 drop-shadow-[0_0_20px_rgba(34,211,238,0.6)]" />
+          <span class="text-zinc-100 font-medium tracking-widest uppercase">Warhollow</span>
+        </div>
+        <nav class="hidden md:flex items-center gap-8 text-sm text-zinc-400">
+          <a href="#vision" class="hover:text-zinc-200 transition">Vision</a>
+          <a href="#coming" class="hover:text-zinc-200 transition">What’s Coming</a>
+          <a href="#ethos" class="hover:text-zinc-200 transition">Ethos</a>
+          <a href="#access" class="hover:text-zinc-200 transition">Request Access</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative mx-auto max-w-6xl px-6 pt-20 pb-16 md:pt-28 md:pb-24">
+      <div class="absolute -top-10 left-1/2 -translate-x-1/2 h-40 w-[44rem] rounded-full blur-3xl opacity-50 bg-cyan-500/20"></div>
+      <div class="grid md:grid-cols-12 gap-8 items-center">
+        <div class="md:col-span-7">
+          <p class="mb-4 text-xs tracking-[0.35em] text-cyan-300/80 uppercase">Stealth • Private • In Development</p>
+          <h1 class="text-4xl md:text-6xl font-semibold leading-tight text-zinc-100">
+            Sovereign Compute for a <span class="bg-gradient-to-r from-cyan-300 via-sky-300 to-emerald-300 bg-clip-text text-transparent">Decentralized Future</span>
+          </h1>
+          <p class="mt-5 max-w-2xl text-zinc-400 text-lg">
+            Warhollow is building privacy‑native infrastructure for AI and crypto systems. Bare‑metal performance. Encrypted by design. Crypto‑ready from day one.
+          </p>
+          <div class="mt-8 flex flex-wrap items-center gap-4">
+            <a href="#access" class="inline-flex items-center gap-2 rounded-2xl px-5 py-3 text-sm font-medium bg-zinc-900/70 ring-1 ring-zinc-700 hover:ring-cyan-500/50 hover:shadow-[0_0_0_2px_rgba(34,211,238,0.25)] transition">Request Early Access</a>
+            <a href="#signal" class="inline-flex items-center gap-2 rounded-2xl px-5 py-3 text-sm font-medium bg-zinc-900/50 ring-1 ring-zinc-800 hover:bg-zinc-900/70 transition">Follow the Signal →</a>
+          </div>
+          <div class="mt-6 flex items-center gap-6 text-xs text-zinc-500">
+            <span>Encrypted‑first</span>
+            <span>•</span>
+            <span>Bare‑metal control</span>
+            <span>•</span>
+            <span>Crypto‑native billing</span>
+          </div>
+        </div>
+        <div class="md:col-span-5">
+          <div class="relative rounded-3xl border border-zinc-800 bg-gradient-to-b from-zinc-900/60 to-zinc-950 p-5 shadow-2xl">
+            <div class="absolute -inset-px rounded-3xl [background:conic-gradient(from_220deg_at_50%_50%,rgba(34,197,94,0.08),rgba(34,211,238,0.15),rgba(56,189,248,0.08),rgba(16,185,129,0.08))] opacity-80 blur-xl"></div>
+            <div class="relative">
+              <div class="mb-4 text-xs text-zinc-400 uppercase tracking-widest">Status</div>
+              <div class="flex items-center justify-between rounded-2xl border border-zinc-800 bg-black/40 p-4">
+                <div>
+                  <div class="text-sm text-zinc-300">Project
+                    <span class="ml-2 rounded-full bg-cyan-500/15 px-2 py-0.5 text-xs text-cyan-300 ring-1 ring-cyan-500/20">Stealth</span>
+                  </div>
+                  <div class="mt-1 text-xs text-zinc-500">Private development underway</div>
+                </div>
+                <img src="assets/wh-symbol.png" alt="Warhollow symbol" class="h-8 w-8 object-contain brightness-110 drop-shadow-[0_0_15px_rgba(34,211,238,0.7)]" />
+              </div>
+              <ul class="mt-4 grid grid-cols-2 gap-3 text-xs">
+                <li class="rounded-2xl border border-zinc-800 bg-zinc-950/50 p-3"><div class="text-zinc-400">Compute</div><div class="mt-1 text-zinc-200">Bare‑metal / GPU‑Capable</div></li>
+                <li class="rounded-2xl border border-zinc-800 bg-zinc-950/50 p-3"><div class="text-zinc-400">Security</div><div class="mt-1 text-zinc-200">Encrypted by design</div></li>
+                <li class="rounded-2xl border border-zinc-800 bg-zinc-950/50 p-3"><div class="text-zinc-400">Billing</div><div class="mt-1 text-zinc-200">Crypto‑native</div></li>
+                <li class="rounded-2xl border border-zinc-800 bg-zinc-950/50 p-3"><div class="text-zinc-400">Availability</div><div class="mt-1 text-zinc-200">Invite‑only soon</div></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vision -->
+    <section id="vision" class="mx-auto max-w-6xl px-6 py-16 md:py-24">
+      <div class="grid md:grid-cols-12 gap-10 items-start">
+        <div class="md:col-span-7">
+          <h2 class="text-2xl md:text-3xl font-semibold text-zinc-100">Vision</h2>
+          <p class="mt-4 text-zinc-400 text-lg leading-relaxed">
+            We believe the future of computation is <span class="text-zinc-100">sovereign</span> — trusted by design and deployed on
+            infrastructure you can control. Warhollow will bring together bare‑metal performance, encrypted execution, and crypto‑native rails to power
+            the next generation of private AI and decentralized applications.
+          </p>
+          <p class="mt-4 text-zinc-500"><em>In development. This page is deliberately sparse; we’re building quietly and shipping when it’s ready.</em></p>
+        </div>
+        <div class="md:col-span-5">
+          <div class="rounded-3xl border border-zinc-800 p-6 bg-zinc-950/60">
+            <h3 class="text-sm tracking-widest text-zinc-400 uppercase">Pillars</h3>
+            <ul class="mt-3 space-y-3 text-zinc-300">
+              <li class="flex gap-3"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-cyan-400"></span>Encrypted‑first architecture</li>
+              <li class="flex gap-3"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-cyan-400"></span>Bare‑metal control, cloud optional</li>
+              <li class="flex gap-3"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-cyan-400"></span>Sovereign data residency</li>
+              <li class="flex gap-3"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-cyan-400"></span>Crypto‑native identity & billing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What’s Coming -->
+    <section id="coming" class="mx-auto max-w-6xl px-6 py-16 md:py-24">
+      <div class="mb-8">
+        <h2 class="text-2xl md:text-3xl font-semibold text-zinc-100">What’s Coming</h2>
+        <p class="mt-3 text-zinc-400 max-w-2xl">A glimpse of the surface area — not a spec sheet.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="group relative overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-950/60 p-6">
+          <div class="absolute -inset-px opacity-0 group-hover:opacity-100 transition duration-500 blur-xl [background:conic-gradient(from_220deg_at_50%_50%,rgba(34,211,238,0.12),transparent,rgba(34,197,94,0.12),transparent)]"></div>
+          <div class="relative">
+            <div class="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-black/40 px-3 py-1 text-xs text-zinc-400"><span class="h-1.5 w-1.5 rounded-full bg-cyan-400"></span>AI</div>
+            <h3 class="mt-4 text-xl text-zinc-100">Encrypted AI Hosting</h3>
+            <p class="mt-2 text-zinc-400">Private LLMs and inference on infrastructure you control. Keys stay yours.</p>
+          </div>
+        </div>
+        <div class="group relative overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-950/60 p-6">
+          <div class="absolute -inset-px opacity-0 group-hover:opacity-100 transition duration-500 blur-xl [background:conic-gradient(from_220deg_at_50%_50%,rgba(34,211,238,0.12),transparent,rgba(34,197,94,0.12),transparent)]"></div>
+          <div class="relative">
+            <div class="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-black/40 px-3 py-1 text-xs text-zinc-400"><span class="h-1.5 w-1.5 rounded-full bg-cyan-400"></span>Compute</div>
+            <h3 class="mt-4 text-xl text-zinc-100">Bare‑Metal Compute</h3>
+            <p class="mt-2 text-zinc-400">GPU‑capable nodes, low‑latency networking, and deterministic performance.</p>
+          </div>
+        </div>
+        <div class="group relative overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-950/60 p-6">
+          <div class="absolute -inset-px opacity-0 group-hover:opacity-100 transition duration-500 blur-xl [background:conic-gradient(from_220deg_at_50%_50%,rgba(34,211,238,0.12),transparent,rgba(34,197,94,0.12),transparent)]"></div>
+          <div class="relative">
+            <div class="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-black/40 px-3 py-1 text-xs text-zinc-400"><span class="h-1.5 w-1.5 rounded-full bg-cyan-400"></span>Billing</div>
+            <h3 class="mt-4 text-xl text-zinc-100">Crypto‑Native Billing</h3>
+            <p class="mt-2 text-zinc-400">Transparent, programmable usage with crypto rails from day one.</p>
+          </div>
+        </div>
+        <div class="group relative overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-950/60 p-6">
+          <div class="absolute -inset-px opacity-0 group-hover:opacity-100 transition duration-500 blur-xl [background:conic-gradient(from_220deg_at_50%_50%,rgba(34,211,238,0.12),transparent,rgba(34,197,94,0.12),transparent)]"></div>
+          <div class="relative">
+            <div class="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-black/40 px-3 py-1 text-xs text-zinc-400"><span class="h-1.5 w-1.5 rounded-full bg-cyan-400"></span>Storage</div>
+            <h3 class="mt-4 text-xl text-zinc-100">Sovereign Storage</h3>
+            <p class="mt-2 text-zinc-400">Data locality and residency by design. S3‑compatible options.</p>
+          </div>
+        </div>
+        <div class="group relative overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-950/60 p-6">
+          <div class="absolute -inset-px opacity-0 group-hover:opacity-100 transition duration-500 blur-xl [background:conic-gradient(from_220deg_at_50%_50%,rgba(34,211,238,0.12),transparent,rgba(34,197,94,0.12),transparent)]"></div>
+          <div class="relative">
+            <div class="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-black/40 px-3 py-1 text-xs text-zinc-400"><span class="h-1.5 w-1.5 rounded-full bg-cyan-400"></span>Security</div>
+            <h3 class="mt-4 text-xl text-zinc-100">Defense‑Grade Posture</h3>
+            <p class="mt-2 text-zinc-400">Hardened defaults, minimal trust, zero‑exfil philosophy.</p>
+          </div>
+        </div>
+        <div class="group relative overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-950/60 p-6">
+          <div class="absolute -inset-px opacity-0 group-hover:opacity-100 transition duration-500 blur-xl [background:conic-gradient(from_220deg_at_50%_50%,rgba(34,211,238,0.12),transparent,rgba(34,197,94,0.12),transparent)]"></div>
+          <div class="relative">
+            <div class="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-black/40 px-3 py-1 text-xs text-zinc-400"><span class="h-1.5 w-1.5 rounded-full bg-cyan-400"></span>Ops</div>
+            <h3 class="mt-4 text-xl text-zinc-100">Operator UX</h3>
+            <p class="mt-2 text-zinc-400">A control surface that respects power users and automates the rest.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ethos / Team -->
+    <section id="ethos" class="mx-auto max-w-6xl px-6 py-16 md:py-24">
+      <div class="grid md:grid-cols-2 gap-10 items-start">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-semibold text-zinc-100">Ethos</h2>
+          <p class="mt-4 text-zinc-400 max-w-2xl">We build with a spy’s paranoia and an engineer’s discipline. Privacy is not a feature — it’s the substrate. Our standard is simple: we defend it in open court and on a whiteboard.</p>
+        </div>
+        <div>
+          <div class="rounded-3xl border border-zinc-800 bg-zinc-950/60 p-6">
+            <h3 class="text-sm tracking-widest text-zinc-400 uppercase">The Team</h3>
+            <p class="mt-2 text-zinc-400">Built by human and non-human technologists, lawyers, and strategists who believe privacy is power. If you are interested in details, reach out below.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Access / Signup (Formspree) -->
+    <section id="access" class="mx-auto max-w-6xl px-6 py-16 md:py-24">
+      <div class="rounded-3xl border border-zinc-800 bg-gradient-to-b from-zinc-950/70 to-black p-8 md:p-10">
+        <div class="grid md:grid-cols-12 gap-8 items-center">
+          <div class="md:col-span-7">
+            <h2 class="text-2xl md:text-3xl font-semibold text-zinc-100">Request Early Access</h2>
+            <p class="mt-3 text-zinc-400 max-w-xl">We’re inviting a small set of founders, builders, and partners into a private alpha. Add your email and we’ll be in touch when the time is right.</p>
+          </div>
+          <div class="md:col-span-5">
+            <form action="https://formspree.io/f/xeordjyo" method="POST" class="flex flex-col gap-3">
+              <input type="email" name="email" required placeholder="you@proton.me"
+                class="w-full rounded-2xl bg-black/60 px-4 py-3 text-sm text-zinc-200 placeholder:text-zinc-500 ring-1 ring-zinc-800 focus:outline-none focus:ring-2 focus:ring-cyan-500/50" />
+              <textarea name="message" rows="3" placeholder="Anything we should know? (optional)"
+                class="w-full rounded-2xl bg-black/60 px-4 py-3 text-sm text-zinc-200 placeholder:text-zinc-500 ring-1 ring-zinc-800 focus:outline-none focus:ring-2 focus:ring-cyan-500/50"></textarea>
+              <input type="hidden" name="_subject" value="Warhollow Early Access Request" />
+              <input type="hidden" name="_next" value="https://warhollow.com/thanks.html" />
+              <button type="submit" class="inline-flex items-center justify-center whitespace-nowrap rounded-2xl px-5 py-3 text-sm font-medium bg-zinc-900/80 ring-1 ring-zinc-700 hover:ring-cyan-500/50 hover:shadow-[0_0_0_2px_rgba(34,211,238,0.25)] transition">Join Waitlist</button>
+            </form>
+            <p class="mt-3 text-[11px] leading-relaxed text-zinc-500">By submitting, you agree to receive occasional emails about Warhollow’s private alpha. This form is handled securely via Formspree.io.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact (native email compose) -->
+    <section id="contact" class="mx-auto max-w-6xl px-6 py-16 md:py-24">
+      <div class="rounded-3xl border border-zinc-800 bg-zinc-950/60 p-8">
+        <div class="grid md:grid-cols-12 gap-8 items-center">
+          <div class="md:col-span-6">
+            <h2 class="text-2xl md:text-3xl font-semibold text-zinc-100">Contact</h2>
+            <p class="mt-3 text-zinc-400 max-w-xl">Prefer email? Use your native mail app. We’ll reply from a secure inbox.</p>
+          </div>
+          <div class="md:col-span-6">
+            <div class="flex flex-col gap-3">
+              <div class="flex items-center justify-between rounded-2xl border border-zinc-800 bg-black/50">
+                <div class="px-4 py-3 text-sm text-zinc-300 select-all" id="emailDisplay">wh@warhollow.com</div>
+                <div class="flex items-center gap-2 p-2">
+                  <button id="copyEmail" class="rounded-xl px-3 py-2 text-xs ring-1 ring-zinc-800 hover:ring-cyan-500/50">Copy</button>
+                  <a id="composeLink" href="#" class="rounded-xl px-3 py-2 text-xs ring-1 ring-zinc-800 hover:ring-cyan-500/50">Compose</a>
+                </div>
+              </div>
+              <p class="text-[11px] text-zinc-500">This opens your default mail app with the address pre‑filled.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Signal / Social -->
+    <section id="signal" class="mx-auto max-w-6xl px-6 py-16 md:py-24">
+      <div class="rounded-3xl border border-zinc-800 bg-zinc-950/60 p-8">
+        <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+          <div>
+            <h2 class="text-2xl font-semibold text-zinc-100">Signal, not noise.</h2>
+            <p class="mt-2 text-zinc-400 max-w-2xl">We’ll publish occasional technical notes and field reports when we have something real to say.</p>
+          </div>
+          <div class="flex items-center gap-4 text-sm text-zinc-400">
+            <a href="#" class="rounded-xl border border-zinc-800 bg-black/40 px-4 py-2 hover:text-zinc-200 transition">X / Updates</a>
+            <a href="https://github.com/warhollow/warhollow" 
+            target= "_blank" 
+            rel= "noopener noreferrer"
+            class="rounded-xl border border-zinc-800 bg-black/40 px-4 py-2 hover:text-zinc-200 transition">
+            GitHub</a>
+            <a href="#" class="rounded-xl border border-zinc-800 bg-black/40 px-4 py-2 hover:text-zinc-200 transition">Mirror / Blog</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mx-auto max-w-6xl px-6 pb-12">
+      <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 border-t border-zinc-900 pt-8">
+        <div class="text-sm text-zinc-500">© <span id="year"></span> Warhollow. All rights reserved.</div>
+        <div class="text-xs text-zinc-600 flex items-center gap-4">
+          <a href="privacy.html" class="hover:text-zinc-300">Privacy Policy</a>
+          <span>•</span>
+          <a href="mailto:wh@warhollow.com?subject=Warhollow%20—%20Inquiry" class="hover:text-zinc-300">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+      // Native email compose + copy
+      (function(){
+        var addr = 'wh' + '@' + 'warhollow.com';
+        var compose = document.getElementById('composeLink');
+        var copyBtn = document.getElementById('copyEmail');
+        var display = document.getElementById('emailDisplay');
+        if (compose) compose.href = 'mailto:' + addr + '?subject=' + encodeURIComponent('Warhollow — Inquiry');
+        if (copyBtn) copyBtn.addEventListener('click', async function(){
+          try { await navigator.clipboard.writeText(addr); copyBtn.textContent = 'Copied'; setTimeout(()=>copyBtn.textContent='Copy',1200); } catch(e) {}
+        });
+        if (display) display.textContent = addr;
+      })();
+    </script>
+  </body>
+</html>

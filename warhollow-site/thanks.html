@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warhollow — Message Received</title>
+    <meta name="description" content="Thank you for reaching out to Warhollow. Your message has been received securely." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+      ::selection { background: rgba(34, 211, 238, 0.3); color: #a5f3fc }
+    </style>
+  </head>
+  <body class="min-h-screen bg-black text-zinc-200 flex items-center justify-center">
+    <div class="pointer-events-none fixed inset-0 [background:radial-gradient(1200px_600px_at_50%_-10%,rgba(14,165,233,0.15),transparent_60%),radial-gradient(900px_500px_at_10%_10%,rgba(56,189,248,0.12),transparent_50%),radial-gradient(800px_600px_at_90%_20%,rgba(6,182,212,0.12),transparent_60%)]"></div>
+    <div class="pointer-events-none fixed inset-0 [mask-image:radial-gradient(80%_60%_at_50%_20%,black,transparent)]"></div>
+
+    <main class="relative z-10 text-center max-w-xl px-6">
+      <div class="mb-6">
+        <div class="h-12 w-12 mx-auto rounded-2xl bg-gradient-to-br from-cyan-400 via-sky-400 to-emerald-400 shadow-[0_0_40px_-10px_rgba(34,211,238,0.8)]"></div>
+      </div>
+      <h1 class="text-3xl md:text-4xl font-semibold text-zinc-100 mb-4">Message Received</h1>
+      <p class="text-zinc-400 mb-8">Your signal has reached us. We'll review your message and respond if there's a fit for our private alpha.</p>
+      <a href="index.html" class="inline-flex items-center gap-2 rounded-2xl px-6 py-3 text-sm font-medium bg-zinc-900/80 ring-1 ring-zinc-700 hover:ring-cyan-500/50 hover:shadow-[0_0_0_2px_rgba(34,211,238,0.25)] transition">
+        ← Back to Warhollow
+      </a>
+      <p class="mt-6 text-xs text-zinc-500">© <span id="year"></span> Warhollow. All rights reserved.</p>
+    </main>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

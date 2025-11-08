@@ -1,0 +1,83 @@
+WH-9 (BASH/Bourne Terminal) Sovereign Shell
+Issued under the Warhollow Sovereign Compute Stack
+Build 25.11.8 / Clearance: Operator
+
+------------------------------------------------------------
+
+> INITIATING SESSION...
+
+$ whoami
+Operator authenticated.
+Session seeded with entropy from /dev/sovereign.
+
+------------------------------------------------------------
+
+🎯 Briefing
+You are operating inside the Bourne Terminal — a hybrid shell that merges command-line precision with WH-9, the Warhollow heuristic language model. You may deploy your own LLM and agents within the stack.
+
+------------------------------------------------------------
+
+🧠 Neural Interface Commands
+wh9.query "<prompt>"		# Engage the Warhollow model directly
+wh9.summarize <data source>	# Generate encrypted briefings from data 
+wh9.audit /path			# Review configs for leaks or violations
+wh9.intel --t <topic>		# Generate observed intel on topic (sandboxed & teardown)
+
+Examples:
+$ wh9.query "summarize network integrity"
+$ wh9.intel "optimal TPM binding for cold environments"
+
+All neural interactions are transient and never logged.
+
+------------------------------------------------------------
+
+🗺️ Navigation (standard shell)
+pwd				- current location
+ls -al				- list files
+cd /path			- change directory
+mkdir ops			- create folder
+rm -rf target			- remove signals
+
+------------------------------------------------------------
+
+⚙️ Recon & Diagnostics
+df -h				- storage capacity
+mem -at				- memory audit
+sysname -a			- system fingerprint
+sudo warhollow --verify		- validate current sovereign stack
+
+------------------------------------------------------------
+
+💣 Data Ops
+scp file user@host:/path	- secure transfer
+tar -czf archive.tgz dir	- compress intel
+rsync -av src/ dest/		- mirror operation
+curl -O url			- retrieve payload
+
+------------------------------------------------------------
+
+🧬 Automation
+chmod +x script.sh		- arm a script
+./script.sh			- execute
+cronedit			- schedule recurring ops
+alias ll='ls -al'		- quick list
+
+------------------------------------------------------------
+
+🔒 Cover & Cleanup
+history -c			- clear local memory
+logout				- exit session
+shutdown -h now			- full system halt
+purge --neural			- sanitize WH-9 caches
+
+------------------------------------------------------------
+
+💡 Doctrine
+Operate quietly. Verify signatures. Protect data. Never expose the origin.
+Built by human and non-human technologists, lawyers, and engineers.
+
+------------------------------------------------------------
+$ wh9.query "Mission state?"
+→ WH-9: *Tasks Completed.*
+
+[SESSION TERMINATED]
