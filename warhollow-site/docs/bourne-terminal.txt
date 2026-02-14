@@ -1,83 +1,82 @@
-WH-9 (BASH/Bourne Terminal) Sovereign Shell
-Issued under the Warhollow Sovereign Compute Stack
-Build 25.11.8 / Clearance: Operator
-
 ------------------------------------------------------------
-
-> INITIATING SESSION...
+WH-9 Bourne Terminal
+Warhollow Environment Demo
+Mode: Single Control Domain
+------------------------------------------------------------
 
 $ whoami
-Operator authenticated.
-Session seeded with entropy from /dev/sovereign.
+workload-owner@wh-env-01
+
+$ whctl status
+:: environment:        wh-env-01
+:: isolation:          hypervisor
+:: control-domain:     unified
+:: residency:          US-NY
+:: cloud-control-plane none
 
 ------------------------------------------------------------
+MODEL OPERATIONS
 
-🎯 Briefing
-You are operating inside the Bourne Terminal — a hybrid shell that merges command-line precision with WH-9, the Warhollow heuristic language model. You may deploy your own LLM and agents within the stack.
+$ whctl model load mistral-8x7b --isolate
+[OK] model loaded into vm-01
+[OK] gpu attached
+[OK] isolation boundary verified
 
-------------------------------------------------------------
-
-🧠 Neural Interface Commands
-wh9.query "<prompt>"		# Engage the Warhollow model directly
-wh9.summarize <data source>	# Generate encrypted briefings from data 
-wh9.audit /path			# Review configs for leaks or violations
-wh9.intel --t <topic>		# Generate observed intel on topic (sandboxed & teardown)
-
-Examples:
-$ wh9.query "summarize network integrity"
-$ wh9.intel "optimal TPM binding for cold environments"
-
-All neural interactions are transient and never logged.
+$ whctl model list
+mistral-8x7b    loaded    gpu:0
+llama-3-70b     available
 
 ------------------------------------------------------------
+CORPUS & RAG
 
-🗺️ Navigation (standard shell)
-pwd				- current location
-ls -al				- list files
-cd /path			- change directory
-mkdir ops			- create folder
-rm -rf target			- remove signals
+$ whctl corpus mount /data/legal-archive --read-only
+[OK] corpus mounted
+[OK] integrity hash recorded
 
-------------------------------------------------------------
+$ whctl corpus index legal-archive --engine local
+[OK] vector index created (local only)
 
-⚙️ Recon & Diagnostics
-df -h				- storage capacity
-mem -at				- memory audit
-sysname -a			- system fingerprint
-sudo warhollow --verify		- validate current sovereign stack
+$ whctl infer \
+    --model mistral-8x7b \
+    --prompt "Summarize arbitration risks" \
+    --corpus legal-archive \
+    --mode rag
 
-------------------------------------------------------------
-
-💣 Data Ops
-scp file user@host:/path	- secure transfer
-tar -czf archive.tgz dir	- compress intel
-rsync -av src/ dest/		- mirror operation
-curl -O url			- retrieve payload
+>> inference complete
+>> no external api calls detected
 
 ------------------------------------------------------------
+EXTERNAL DATA (OWNER-CONTROLLED)
 
-🧬 Automation
-chmod +x script.sh		- arm a script
-./script.sh			- execute
-cronedit			- schedule recurring ops
-alias ll='ls -al'		- quick list
+$ whctl source attach s3://client-bucket \
+    --auth owner-scope \
+    --mode read-only
 
-------------------------------------------------------------
-
-🔒 Cover & Cleanup
-history -c			- clear local memory
-logout				- exit session
-shutdown -h now			- full system halt
-purge --neural			- sanitize WH-9 caches
+[OK] external source attached
+[OK] no control-plane delegation
 
 ------------------------------------------------------------
+INTEGRITY & BOUNDARY CHECKS
 
-💡 Doctrine
-Operate quietly. Verify signatures. Protect data. Never expose the origin.
-Built by human and non-human technologists, lawyers, and engineers.
+$ whctl integrity verify
+✓ boot-state: valid
+✓ disk-binding: hardware-sealed
+✓ workload-isolation: enforced
+
+$ whctl boundary inspect
+:: vm-isolation:        hypervisor-enforced
+:: cross-tenant state:  none
+:: telemetry export:    disabled (default)
 
 ------------------------------------------------------------
-$ wh9.query "Mission state?"
-→ WH-9: *Tasks Completed.*
+SESSION MANAGEMENT
 
-[SESSION TERMINATED]
+$ whctl session snapshot
+[OK] state snapshot created (local)
+
+$ whctl session expire --artifacts 24h
+[OK] transient artifacts scheduled for purge
+
+$ logout
+session terminated
+------------------------------------------------------------
