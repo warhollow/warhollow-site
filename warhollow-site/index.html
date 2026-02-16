@@ -22,7 +22,46 @@
     <header class="sticky top-0 z-30 backdrop-blur supports-[backdrop-filter]:bg-black/30">
       <div class="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
         <div class="flex items-center gap-3">
-          <img src="assets/wh-symbol.png" alt="Warhollow symbol" class="h-10 w-10 object-contain brightness-110 drop-shadow-[0_0_20px_rgba(34,211,238,0.6)]" />
+          <!--<img src="assets/wh-symbol.png" alt="Warhollow symbol" class="h-10 w-10 object-contain brightness-110 drop-shadow-[0_0_20px_rgba(34,211,238,0.6)]" /> -->
+          <div class="h-10 w-10">
+  <svg xmlns="http://www.w3.org/2000/svg"
+       viewBox="0 0 1024 1024"
+       class="h-10 w-10"
+       fill="none"
+       stroke="#2BBFD8"
+       stroke-width="56"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+
+    <!-- Main ring -->
+    <circle cx="512" cy="512" r="270"/>
+
+    <!-- Left lower arm -->
+    <path d="M242 512 H140"/>
+    <circle cx="96" cy="512" r="44"/>
+
+    <!-- Left upper arm -->
+    <path d="M260 430 V320 H170"/>
+    <circle cx="170" cy="320" r="44"/>
+
+    <!-- Right middle arm -->
+    <path d="M782 512 H884"/>
+    <circle cx="928" cy="512" r="44"/>
+
+    <!-- Right lower arm -->
+    <path d="M764 600 V734 H844"/>
+    <circle cx="844" cy="734" r="44"/>
+
+    <!-- Face -->
+    <g fill="#2BBFD8" stroke="none">
+      <rect x="390" y="440" width="86" height="86" rx="10"/>
+      <rect x="548" y="440" width="86" height="86" rx="10"/>
+      <rect x="360" y="600" width="304" height="86" rx="12"/>
+    </g>
+  </svg>
+</div>
+          
+          <!-- svg symbol marker -->
           <span class="text-zinc-100 font-medium tracking-widest uppercase">Warhollow</span>
         </div>
         <nav class="hidden md:flex items-center gap-8 text-sm text-zinc-400">
