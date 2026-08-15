@@ -1,118 +1,147 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Warhollow — Sovereign Compute</title>
-    <meta name="description" content="Command your workloads on a sovereign stack. CPU-first, GPU-capable infrastructure for privacy-first AI and crypto workloads." />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-      ::selection { background: rgba(34, 211, 238, 0.3); color: #a5f3fc }
-      @keyframes caret { 0%,49% {opacity:1} 50%,100% {opacity:0} }
-    </style>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07090a">
+  <title>Warhollow — Your Personal AI Headquarters</title>
+  <meta name="description" content="A persistent place where your AI, models, files, tools, applications, workspace, and compute come together.">
+  <link rel="canonical" href="https://warhollow.com/">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div data-site-header></div>
+  <main>
+    <section class="hero shell">
+      <p class="eyebrow">Warhollow</p>
+      <h1>Your personal AI headquarters.<span>Where your AI comes together.</span></h1>
+      <p class="hero-copy">A persistent place for your AI, models, files, tools, applications, and work—managed for you and ready when you return.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="https://portal.warhollow.com">Get Started <span aria-hidden="true">→</span></a>
+        <a class="button secondary" href="#how-it-works">How It Works</a>
+      </div>
+      <p class="microcopy">Ghost from $99/month · Shadow from $169/month · Recurring monthly subscriptions</p>
+      <svg class="system-signal" viewBox="0 0 360 28" aria-hidden="true"><path d="M0 14h78l8-8 11 16 13-8h72l7-11 13 22 10-11h148"/><circle cx="360" cy="14" r="2.5"/></svg>
+    </section>
 
-  <body class="min-h-screen bg-black text-zinc-200 antialiased selection:bg-cyan-500/30 selection:text-cyan-200 font-sans">
-    <!-- Ambient background -->
-    <div class="pointer-events-none fixed inset-0 [background:radial-gradient(1200px_600px_at_50%_-10%,rgba(14,165,233,0.15),transparent_60%),radial-gradient(900px_500px_at_10%_10%,rgba(56,189,248,0.12),transparent_50%),radial-gradient(800px_600px_at_90%_20%,rgba(6,182,212,0.12),transparent_60%)]"></div>
-    <div class="pointer-events-none fixed inset-0 [mask-image:radial-gradient(80%_60%_at_50%_20%,black,transparent)]"></div>
+    <section class="workspace-stage shell" aria-labelledby="workspace-caption">
+      <div class="workspace" role="img" aria-label="Warhollow workspace bringing together AI activity, files, tools, terminal, and environment status">
+        <aside class="workspace-sidebar" aria-hidden="true">
+          <div class="window-controls"><i></i><i></i><i></i></div>
+          <div class="workspace-label">Headquarters</div>
+          <div class="side-item active"><i class="side-icon"></i>Overview</div>
+          <div class="side-item"><i class="side-icon"></i>AI workspace</div>
+          <div class="side-item"><i class="side-icon"></i>Files</div>
+          <div class="side-item"><i class="side-icon"></i>Applications</div>
+          <div class="side-item"><i class="side-icon"></i>Terminal</div>
+          <div class="side-status"><div class="status-row"><i class="status-dot"></i>Environment active</div></div>
+        </aside>
+        <div class="workspace-main" aria-hidden="true">
+          <div class="workspace-top"><span class="workspace-title">My Warhollow</span><span class="workspace-meta">Everything in its place</span></div>
+          <div class="workspace-grid">
+            <article class="workspace-card ai-panel">
+              <div class="card-head"><span>AI workspace</span><span class="card-kicker">Active</span></div>
+              <div class="ai-body">
+                <div class="ai-note">Bring this project into focus.</div>
+                <div class="ai-response">Context organized. Open questions mapped. Your next session is ready.</div>
+              </div>
+            </article>
+            <article class="workspace-card">
+              <div class="card-head"><span>Files</span><span class="card-kicker">Workspace</span></div>
+              <div class="files-list">
+                <div class="file-row"><i class="file-icon"></i><span>Research</span><span class="file-time">Now</span></div>
+                <div class="file-row"><i class="file-icon"></i><span>Project notes</span><span class="file-time">2m</span></div>
+                <div class="file-row"><i class="file-icon"></i><span>References</span><span class="file-time">1h</span></div>
+                <div class="file-row"><i class="file-icon"></i><span>Archive</span><span class="file-time">2d</span></div>
+              </div>
+            </article>
+            <article class="workspace-card terminal">
+              <div class="card-head"><span>Terminal</span><span class="card-kicker">Ready</span></div>
+              <pre><span class="prompt">~</span> workspace status
+environment   active
+files         available
+tools         ready
 
-    <!-- Nav -->
-    <header class="sticky top-0 z-30 backdrop-blur supports-[backdrop-filter]:bg-black/30">
-      <div class="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
-        <div class="flex items-center gap-3">
-          <!--<img src="assets/wh-symbol.png" alt="Warhollow symbol" class="h-10 w-10 object-contain brightness-110 drop-shadow-[0_0_20px_rgba(34,211,238,0.6)]" /> -->
-        <svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 128 128"
-     class="h-10 w-10"
-     fill="none"
-     stroke="#49DDF2"
-     stroke-width="5"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     aria-label="Warhollow mark">
-
-  <!-- ARMS FIRST -->
-
-  <!-- LEFT upper arm -->
-  <path d="M30 48 H18 V36"/>
-  <circle cx="18" cy="36" r="5"/>
-  <circle cx="18" cy="36" r="2.5" fill="#062428" stroke="none"/>
-
-  <!-- LEFT lower arm -->
-  <path d="M30 64 H12"/>
-  <circle cx="12" cy="64" r="5"/>
-  <circle cx="12" cy="64" r="2.5" fill="#062428" stroke="none"/>
-
-  <!-- RIGHT middle arm -->
-  <path d="M98 64 H116"/>
-  <circle cx="116" cy="64" r="5"/>
-  <circle cx="116" cy="64" r="2.5" fill="#062428" stroke="none"/>
-
-  <!-- RIGHT lower arm -->
-  <path d="M98 78 H110 V92"/>
-  <circle cx="110" cy="92" r="5"/>
-  <circle cx="110" cy="92" r="2.5" fill="#062428" stroke="none"/>
-
-  <!-- RING LAST -->
-  <circle cx="64" cy="64" r="34"/>
-
-  <!-- FACE -->
-  <g fill="#49DDF2" stroke="none">
-    <rect x="50" y="50" width="8" height="8" rx="2"/>
-    <rect x="70" y="50" width="8" height="8" rx="2"/>
-    <rect x="46" y="70" width="36" height="6" rx="2"/>
-  </g>
-
-</svg>
-          
-          <!-- svg symbol end block -->
-          <span class="text-zinc-100 font-medium tracking-widest uppercase">Warhollow</span>
+<span class="prompt">~</span> continue project
+Returning to your workspace…<span class="cursor"></span></pre>
+            </article>
+          </div>
         </div>
-        <nav class="hidden md:flex items-center gap-8 text-sm text-zinc-400">
-          <a href="https://warhollow.com/home.html" class="hover:text-zinc-200 transition">Full Site</a>
-          <a href="https://github.com/warhollow/Warhollow/blob/main/ghost-primer/ghost-primer-v0.5.1.md" target="_blank" class="hover:text-zinc-200 transition">Ghost Primer</a>
-          <a href="/docs/bourne-terminal.txt" class="hover:text-zinc-200 transition">Codex Shell</a>
-          <a href="https://github.com/warhollow/warhollow" class="hover:text-zinc-200 transition">GitHub</a>
-        </nav>
       </div>
-    </header>
+      <p class="workspace-caption" id="workspace-caption">One environment for the different parts of your AI work. Interface shown is an illustrative product concept.</p>
+    </section>
 
-    <!-- Hero -->
-    <section class="relative mx-auto max-w-6xl px-6 pt-20 pb-16 md:pt-28 md:pb-24 text-center">
-      <div class="absolute -top-10 left-1/2 -translate-x-1/2 h-40 w-[44rem] rounded-full blur-3xl opacity-50 bg-cyan-500/20"></div>
-
-      <p class="mb-4 text-xs tracking-[0.35em] text-cyan-300/80 uppercase">Stealth • Private • In Development</p>
-
-      <h1 class="text-4xl md:text-6xl font-semibold leading-tight text-zinc-100">
-        Sovereign Compute — <span class="bg-gradient-to-r from-cyan-300 via-sky-300 to-emerald-300 bg-clip-text text-transparent">Execute on Your Terms</span>
-      </h1>
-
-      <p class="mt-6 text-zinc-300 text-lg">Command your workloads inside a unified control domain.</p>
-      <p class="mt-3 text-zinc-400">CPU-first, GPU-capable design. Git-backed, SSH-first operations. Governed by Warhollow. Executed by you.</p>
-
-      <div class="mt-8 flex flex-wrap justify-center gap-4">
-        <a href="/docs/bourne-terminal.txt" class="px-4 py-2 rounded-lg border border-cyan-600 bg-cyan-600/20 font-mono hover:bg-cyan-600/30">
-          Codex Shell
-        </a>
-        <a href="https://github.com/warhollow/Warhollow/blob/main/ghost-primer/ghost-primer-v0.5.1.md" target="_blank" class="px-4 py-2 rounded-lg border border-zinc-600 bg-zinc-800 hover:bg-zinc-700">
-          Ghost Primer (GitHub)
-        </a>
-        <a href="https://warhollow.com/home.html" class="px-4 py-2 rounded-lg border border-zinc-600 bg-zinc-800 hover:bg-zinc-700">
-          Full Site
-        </a>
-      </div>
-
-      <div class="mt-10 font-mono text-cyan-400 text-sm">$ ./boot --mode=sovereign
-        <span class="inline-block w-2 h-5 align-middle ml-1 bg-cyan-300" style="animation: caret 1s steps(1,end) infinite"></span>
+    <section class="section" id="products">
+      <div class="shell">
+        <div class="section-intro">
+          <div><p class="eyebrow">A place that persists</p><h2 class="section-heading">Pick up where you left off.</h2></div>
+          <p class="section-copy">Your AI work should not disappear into a trail of disconnected sessions. Warhollow gives it a persistent environment—so your files, tools, applications, and working context can remain together between visits.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature"><span class="feature-number">01</span><h3>Everything together</h3><p>Your AI work, files, and tools in one environment.</p></article>
+          <article class="feature"><span class="feature-number">02</span><h3>Ready when you return</h3><p>Continue without rebuilding your setup.</p></article>
+          <article class="feature"><span class="feature-number">03</span><h3>Infrastructure, handled</h3><p>Warhollow manages what runs underneath.</p></article>
+        </div>
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="py-6 text-sm text-zinc-500 text-center border-t border-zinc-800">
-      <p>© 2026 Warhollow LLC · Operates wherever your keys reside.</p>
-      <p class="mt-1 text-zinc-600">Built by humans.</p>
-    </footer>
-  </body>
+    <section class="section" id="pricing">
+      <div class="shell">
+        <div class="section-intro">
+          <div><p class="eyebrow">Ghost and Shadow</p><h2 class="section-heading">Choose your headquarters.</h2></div>
+          <p class="section-copy">Two persistent personal AI environments, shaped around different experiences. Both are managed through the Warhollow Customer Portal.</p>
+        </div>
+        <div class="pricing-grid">
+          <article class="price-card">
+            <h3 class="price-name">Ghost</h3>
+            <div class="price">$99<span>/month</span></div>
+            <p class="price-description">A persistent personal AI workspace for keeping your tools, files, models, and work together.</p>
+            <p class="price-details">The focused way into Warhollow.</p>
+            <a class="button secondary" href="https://portal.warhollow.com">Choose Ghost <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="price-card flagship">
+            <span class="flagship-label">Flagship experience</span>
+            <h3 class="price-name">Shadow</h3>
+            <div class="price">$169<span>/month</span></div>
+            <p class="price-description">The richer browser workspace and the most complete Personal AI Headquarters.</p>
+            <p class="price-details">The flagship Warhollow experience.</p>
+            <a class="button primary" href="https://portal.warhollow.com">Choose Shadow <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+        <p class="pricing-note">Recurring monthly subscriptions. Execution location: New York, United States.</p>
+      </div>
+    </section>
+
+    <section class="section" id="how-it-works">
+      <div class="shell">
+        <div class="section-intro"><div><p class="eyebrow">How it works</p><h2 class="section-heading">From choice to workspace.</h2></div><p class="section-copy">A straightforward path into a managed environment that is yours to return to.</p></div>
+        <div class="steps">
+          <article class="step"><img class="step-art" src="/assets/how-it-works/choose-ghost-shadow-friendly.webp" alt="" width="598" height="900" loading="lazy"><h3>Choose</h3><p>Ghost or Shadow.</p></article>
+          <article class="step"><img class="step-art" src="/assets/how-it-works/create-binary-identity.webp" alt="" width="598" height="900" loading="lazy"><h3>Create</h3><p>Set up your account.</p></article>
+          <article class="step"><img class="step-art" src="/assets/how-it-works/subscribe-cyber-payment.webp" alt="" width="599" height="900" loading="lazy"><h3>Subscribe</h3><p>Confirm your monthly plan.</p></article>
+          <article class="step"><img class="step-art" src="/assets/how-it-works/enter-network-pod.webp" alt="" width="599" height="900" loading="lazy"><h3>Enter</h3><p>Warhollow prepares your environment.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell">
+        <div class="section-intro"><div><p class="eyebrow">Serious infrastructure, quietly managed</p><h2 class="section-heading">Built for continuity and control.</h2></div><p class="section-copy">Warhollow operates the systems surrounding your account, subscription, environment, and service lifecycle while you control what you place in your workspace.</p></div>
+        <div class="trust-grid">
+          <article class="trust-panel"><h3>Quietly protected.</h3><p>Safeguards and recovery measures support the systems around your workspace.</p><div class="trust-list"><div class="trust-item">Controlled admin access</div><div class="trust-item">Administrative MFA</div><div class="trust-item">Off-site recovery</div><div class="trust-item">U.S. execution</div></div></article>
+          <article class="burst-panel"><span class="coming">Coming soon</span><h3>Burst Compute</h3><p>Keep your environment. Add compute when you need it.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta shell">
+      <p class="eyebrow">Make a place for what comes next</p>
+      <h2>Your AI work deserves a headquarters.</h2>
+      <p>Choose Ghost or Shadow and bring your models, files, tools, applications, and work into one persistent environment.</p>
+      <a class="button primary" href="https://portal.warhollow.com">Get Started <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+  <div data-site-footer></div>
+  <script src="/site.js"></script>
+</body>
 </html>
