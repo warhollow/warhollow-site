@@ -160,7 +160,7 @@ Certain rights may be subject to exceptions and identity-verification requiremen
 
 To submit a privacy request, contact us at:
 
-privacy@warhollow.com
+wh@thewarhollow.com
 
 Warhollow will not discriminate against you for exercising rights provided by applicable law.
 
@@ -172,7 +172,7 @@ By choosing to use the Services, you are requesting a U.S.-hosted computing envi
 
 Warhollow also uses service providers that may process information in the United States and other countries. Where required by applicable law, we and our service providers use appropriate safeguards or other legally recognized bases for international transfers.
 
-You may contact privacy@warhollow.com if you have questions about the location or processing of your information.
+You may contact wh@thewarhollow.com if you have questions about the location or processing of your information.
 
 11. Children’s Privacy
 
@@ -198,4 +198,4 @@ When we make changes, we will update the “Last Updated” date above. Where re
 
 If you have questions about this Privacy Policy, Warhollow’s privacy practices, or would like to exercise an applicable privacy right, contact us at:
 
-Email: privacy@warhollow.com
+Email: wh@thewarhollow.com
