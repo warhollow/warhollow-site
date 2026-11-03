@@ -25,10 +25,10 @@ const PRODUCTS = [
     name: "Sentinel",
     level: "High-Capacity Headquarters",
     description: "A powerful environment for demanding development workloads and projects requiring substantially more CPU, memory, and storage.",
-    price: "Coming soon",
-    cadence: "",
+    price: "$399",
+    cadence: "/month",
     specs: ["Ubuntu Linux", "16 vCPU", "64 GB RAM", "320 GB storage"],
-    available: false,
+    available: true,
   },
 ];
 
@@ -47,7 +47,7 @@ class ProductCatalog extends HTMLElement {
           ? `<a class="button ${product.featured ? "primary" : "secondary"}" href="https://portal.warhollow.com">${market ? "Launch " : "Choose "}${product.name}<span aria-hidden="true">↗</span></a>`
           : `<span class="button disabled" aria-disabled="true">Not yet available</span>`}
       </article>`).join("")}</div>
-      <p class="catalog-note">Ghost and Shadow are recurring monthly subscriptions. Sentinel pricing and availability are pending final approval. Execution location: New York, United States.</p>`;
+      <p class="catalog-note">Ghost, Shadow, and Sentinel are recurring monthly subscriptions. Execution location: New York, United States.</p>`;
   }
 }
 
