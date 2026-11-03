@@ -1,0 +1,54 @@
+const PRODUCTS = [
+  {
+    key: "ghost",
+    name: "Ghost",
+    level: "Essential Headquarters",
+    description: "An accessible starting point for AI experimentation, development, and focused workloads.",
+    price: "$99",
+    cadence: "/month",
+    specs: ["Ubuntu Linux", "4 vCPU", "16 GB RAM", "100 GB storage"],
+    available: true,
+  },
+  {
+    key: "shadow",
+    name: "Shadow",
+    level: "Advanced Headquarters",
+    description: "More computing resources for developers, builders, and growing AI projects.",
+    price: "$169",
+    cadence: "/month",
+    specs: ["Ubuntu Linux", "8 vCPU", "32 GB RAM", "140 GB storage"],
+    available: true,
+    featured: true,
+  },
+  {
+    key: "sentinel",
+    name: "Sentinel",
+    level: "High-Capacity Headquarters",
+    description: "A powerful environment for demanding development workloads and projects requiring substantially more CPU, memory, and storage.",
+    price: "Coming soon",
+    cadence: "",
+    specs: ["Ubuntu Linux", "16 vCPU", "64 GB RAM", "320 GB storage"],
+    available: false,
+  },
+];
+
+class ProductCatalog extends HTMLElement {
+  connectedCallback() {
+    const market = this.dataset.market === "singapore";
+    this.innerHTML = `<div class="product-grid">${PRODUCTS.map((product, index) => `
+      <article class="product-card product-${product.key}${product.featured ? " product-featured" : ""}">
+        <div class="product-topline"><span class="product-index">0${index + 1}</span><span class="product-status">${product.available ? "Available" : "Price pending"}</span></div>
+        <p class="product-family">${product.level}</p>
+        <h3>${product.name}</h3>
+        <p class="product-description">${product.description}</p>
+        <div class="product-price"><strong>${product.price}</strong>${product.cadence ? `<span>${product.cadence}</span>` : ""}</div>
+        <ul class="spec-list" aria-label="${product.name} specifications">${product.specs.map((spec) => `<li>${spec}</li>`).join("")}</ul>
+        ${product.available
+          ? `<a class="button ${product.featured ? "primary" : "secondary"}" href="https://portal.warhollow.com">${market ? "Launch " : "Choose "}${product.name}<span aria-hidden="true">↗</span></a>`
+          : `<span class="button disabled" aria-disabled="true">Not yet available</span>`}
+      </article>`).join("")}</div>
+      <p class="catalog-note">Ghost and Shadow are recurring monthly subscriptions. Sentinel pricing and availability are pending final approval. Execution location: New York, United States.</p>`;
+  }
+}
+
+customElements.define("product-catalog", ProductCatalog);

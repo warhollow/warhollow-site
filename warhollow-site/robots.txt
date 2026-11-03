@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /
+
+# Launch hold: replace Disallow with Allow and add the sitemap URL only after approval.
