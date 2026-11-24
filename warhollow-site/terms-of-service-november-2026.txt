@@ -1,0 +1,611 @@
+WARHOLLOW TERMS OF SERVICE
+
+Last Updated: November 23, 2026
+
+These Terms of Service (“Terms”) govern your access to and use of the websites, computing environments, AI workspaces, software, infrastructure, and related services provided by Warhollow LLC (“Warhollow,” “we,” “us,” or “our”) (collectively, the “Services”).
+
+By affirmatively accepting these Terms, creating an account, purchasing a subscription, or otherwise using the Services following reasonable notice of these Terms, you agree to be bound by them.
+
+If you do not agree to these Terms, do not use the Services.
+
+If you use the Services on behalf of an organization, you represent that you have authority to bind that organization to these Terms. References to “you” and “your” include that organization where applicable.
+
+1. The Services
+
+Warhollow provides hosted computing environments designed to serve as persistent workspaces for AI development, software, models, files, research, automation, and related computing activities.
+
+These environments, which we refer to as headquarters or workspaces, are offered in different configurations, including Ghost, Shadow, and Sentinel.
+
+Available products, configurations, features, resource allocations, and pricing are described on the applicable product or ordering pages.
+
+Unless expressly stated otherwise, Warhollow’s primary workspace infrastructure is hosted in the United States.
+
+Warhollow provides computing infrastructure and related tools. You are responsible for the applications, models, software, data, and workloads you choose to operate within your workspace.
+
+Certain features may be identified as beta, preview, experimental, or coming soon. Such features may be subject to additional restrictions and may be modified, suspended, or discontinued.
+
+Warhollow may use third-party infrastructure, software, network, authentication, payment, storage, AI, and other technology providers in providing the Services.
+
+2. Eligibility and Accounts
+
+You must be at least 18 years old and legally capable of entering into these Terms to create an account or purchase a subscription.
+
+You must provide accurate and current information when creating and maintaining your account.
+
+You are responsible for:
+
+    • Maintaining the confidentiality and security of your credentials;
+    • Activity conducted through your account by you or persons you authorize;
+    • Appropriately securing credentials, software, data, and other materials within your workspace;
+    • Managing access permissions under your control; and
+    • Promptly notifying Warhollow if you believe your account or workspace has been compromised.
+
+If you provide others with authorized access to your account or workspace, you are responsible for ensuring that their use complies with these Terms.
+
+You may not share credentials or provide access in a manner that circumvents account, subscription, security, or access limitations.
+
+Warhollow may require multi-factor authentication, identity verification, or other security measures for certain accounts, features, or activities.
+
+We may refuse account registration or purchases where reasonably necessary to address fraud, security, capacity, legal, or operational concerns.
+
+3. Subscriptions, Payments, and Billing
+
+Certain Services require a paid subscription.
+
+The applicable price, billing frequency, included resources, and other material subscription terms will be presented before purchase.
+
+Automatic Renewal
+
+Unless otherwise stated at checkout, subscriptions are billed on a recurring basis and automatically renew for successive billing periods until canceled.
+
+By purchasing a recurring subscription, you authorize Warhollow and its payment processor to charge the applicable subscription fees and taxes to your selected payment method at each renewal.
+
+Your authorization continues until you cancel your subscription or otherwise terminate the applicable recurring payment authorization.
+
+Warhollow will provide renewal notices, acknowledgments, and other subscription-related disclosures where required by applicable law.
+
+Payment Processing
+
+Warhollow uses third-party payment providers, including Stripe, to process payments and provide billing functionality.
+
+Your use of payment services may also be subject to the applicable terms and privacy practices of those providers.
+
+You agree to provide accurate billing information and maintain a valid payment method for recurring Services.
+
+Provisioning and Capacity
+
+Workspace provisioning is subject to available infrastructure capacity, payment confirmation, and applicable security or verification requirements.
+
+Although Warhollow aims to provision workspaces promptly, provisioning may be delayed by technical issues, maintenance, capacity limitations, or other circumstances.
+
+If Warhollow is unable to provide a purchased workspace within a reasonable period, we will provide an appropriate remedy, which may include cancellation and refund of the affected purchase.
+
+Pricing Changes
+
+Warhollow may change subscription prices from time to time.
+
+Changes to recurring subscription prices will ordinarily take effect no earlier than your next applicable renewal following advance notice.
+
+We will provide any additional notice or obtain consent where required by applicable law.
+
+You may cancel your subscription before the new price takes effect.
+
+Failed Payments
+
+If a payment fails or your subscription becomes delinquent, Warhollow may restrict the creation of new resources, suspend access to some or all of the Services, stop your workspace, or take other reasonable measures to limit continued use of unpaid Services.
+
+Warhollow may provide a grace period following a failed payment. Any grace period does not waive amounts owed or guarantee continued access.
+
+Cancellation
+
+You may cancel your subscription through the functionality made available in your account or billing portal.
+
+If you are unable to access the applicable cancellation functionality, you may contact Warhollow for assistance.
+
+Unless otherwise stated at the time of cancellation, cancellation generally takes effect at the end of the current paid billing period. You will ordinarily retain access through that period.
+
+You may cancel your subscription without being required to provide a reason.
+
+Cancellation stops future recurring subscription charges but does not entitle you to a refund for amounts already paid, except where required by law or expressly stated otherwise.
+
+You are responsible for exporting Workspace Content that you wish to retain before your access ends.
+
+Refunds and Statutory Cancellation Rights
+
+Except where expressly stated otherwise or required by applicable law, subscription fees are non-refundable for partially used billing periods, voluntary cancellation, or non-use of the Services.
+
+Nothing in these Terms limits mandatory refund, withdrawal, cooling-off, cancellation, or other consumer rights available under applicable law.
+
+Where applicable law provides a right to withdraw from a purchase or requires express consent before performance begins during a withdrawal period, Warhollow will comply with those requirements.
+
+Taxes and Currency
+
+Unless otherwise stated, prices are expressed in U.S. dollars and may exclude applicable sales, use, value-added, goods and services, or similar taxes.
+
+You are responsible for taxes associated with your purchase, except taxes based on Warhollow’s net income.
+
+Your payment provider may impose additional currency conversion or international transaction charges.
+
+4. Computing Resources
+
+Your subscription includes the computing resources specified on the applicable product or ordering page.
+
+These resources may include virtual processing capacity, memory, storage, network connectivity, and related functionality.
+
+Unless expressly stated otherwise, workspaces are virtualized computing environments operating on shared physical infrastructure.
+
+A workspace does not constitute a dedicated physical server.
+
+References to virtual CPUs do not imply the exclusive allocation of physical CPU cores or a guarantee of particular processing performance.
+
+Available storage may be affected by operating system requirements, installed software, filesystem overhead, and other technical factors.
+
+Unless expressly included in your purchased configuration, Warhollow subscriptions do not include dedicated GPU resources.
+
+Resource Management
+
+Warhollow may impose reasonable technical and operational limits necessary to protect infrastructure capacity, security, network stability, service availability, and other customers.
+
+You may not intentionally circumvent resource limits or operate workloads that materially interfere with the Services.
+
+Warhollow may restrict workloads that create excessive network abuse, abnormal resource contention, security risks, or material interference with shared infrastructure.
+
+Configuration Changes
+
+Changes between product configurations may be subject to available capacity, technical compatibility, applicable pricing, and migration requirements.
+
+Warhollow does not guarantee that every configuration change can be performed without interruption or that all upgrades or downgrades are available through self-service functionality.
+
+Additional Computing Resources
+
+Additional computing resources, including temporary or burst GPU capacity, may be separately priced, subject to availability, and governed by additional terms where offered.
+
+Additional resources are not included in a standard subscription unless expressly stated.
+
+5. Your Workspace and Content
+
+You retain your rights in files, prompts, software, models, data, and other content that you lawfully place, create, or process within your Warhollow workspace (“Workspace Content”).
+
+These Terms do not transfer ownership of Workspace Content to Warhollow.
+
+You are responsible for your Workspace Content and for ensuring that you have all rights, permissions, and authority necessary to store, use, process, or make that content available through the Services.
+
+You grant Warhollow a limited, non-exclusive right to host, store, transmit, copy, back up, restore, and otherwise process Workspace Content solely as reasonably necessary to:
+
+    • Provide, maintain, secure, and support the Services;
+    • Perform backup, recovery, and infrastructure operations;
+    • Investigate suspected misuse or security incidents;
+    • Enforce these Terms;
+    • Comply with applicable law; or
+    • Protect Warhollow, our users, or others.
+
+Warhollow does not use Workspace Content to train its own AI models or make Workspace Content available to other customers for their independent use.
+
+Warhollow does not routinely inspect the contents of customer workspaces.
+
+Restricted administrative access may occur where reasonably necessary for support, maintenance, security, backup and recovery, abuse prevention, legal compliance, or other purposes described in our Privacy Policy.
+
+If you choose to transmit Workspace Content to a third-party AI model, API, application, or other external service, that transmission and the third party’s subsequent processing may be governed by separate terms and privacy practices.
+
+You remain responsible for maintaining appropriate control over your Workspace Content.
+
+6. AI Models, Software, and Third-Party Services
+
+Warhollow may enable you to install, access, connect to, or use AI models, software, applications, APIs, computing resources, or services provided by third parties.
+
+Such products and services are not necessarily provided or controlled by Warhollow and may be subject to separate licenses, usage restrictions, fees, privacy policies, or other terms.
+
+You are responsible for complying with applicable third-party terms and licenses, including restrictions governing commercial use, geographic availability, redistribution, and the processing of data.
+
+Unless expressly included in your Warhollow subscription, third-party services, API usage, model subscriptions, and external computing resources may result in additional charges payable by you.
+
+You are responsible for securing any third-party credentials or API keys that you install or use within your workspace.
+
+Warhollow does not guarantee the availability, accuracy, safety, legality, performance, compatibility, or continued operation of third-party models, software, or services.
+
+AI Outputs
+
+AI systems can produce inaccurate, incomplete, offensive, misleading, infringing, or otherwise undesirable outputs.
+
+You are responsible for evaluating outputs generated through AI models or services before relying on, distributing, or using them.
+
+Warhollow does not guarantee the accuracy, originality, legality, or suitability of AI-generated outputs.
+
+AI Agents and Automated Workflows
+
+You are responsible for appropriately configuring, supervising, and controlling AI agents, automated processes, and software operating within your workspace.
+
+This includes managing:
+
+    • Access permissions;
+    • External integrations;
+    • Credentials;
+    • Automated transactions;
+    • Resource consumption;
+    • Communications with third parties; and
+    • Actions undertaken by software or agents operating on your behalf.
+
+You are responsible for the lawful operation and consequences of such activities.
+
+High-Risk and Critical Applications
+
+The Services are not designed or warranted for use as the sole infrastructure supporting applications where failure, interruption, or inaccurate output could reasonably result in death, serious injury, significant physical harm, or catastrophic damage.
+
+You are responsible for establishing appropriate independent safeguards, redundancy, human oversight, and regulatory compliance for any high-risk application.
+
+7. Acceptable Use
+
+You may use the Services only for lawful purposes and in accordance with these Terms.
+
+You may not use the Services to:
+
+    • Violate applicable law or the rights of others;
+    • Distribute malware, ransomware, viruses, or other malicious code;
+    • Compromise, attack, disrupt, or gain unauthorized access to systems, accounts, networks, or data;
+    • Conduct unauthorized security scanning, denial-of-service attacks, or abusive automated activity;
+    • Facilitate fraud, phishing, impersonation, credential theft, or other deceptive practices;
+    • Unlawfully collect, possess, distribute, or process personal or confidential information;
+    • Infringe intellectual property or other proprietary rights;
+    • Create, distribute, store, or facilitate access to unlawful content;
+    • Exploit or abuse children or facilitate unlawful exploitation of another person;
+    • Facilitate terrorism, unlawful violence, or other unlawful harmful activities;
+    • Facilitate unlawful surveillance, tracking, or unauthorized interception of communications;
+    • Conduct cryptocurrency mining or similar mining activities without prior written authorization;
+    • Operate unauthorized public proxy services, public VPN exit nodes, anonymization networks, or infrastructure intended to facilitate unlawful or abusive activities;
+    • Circumvent technical, security, billing, access, geographic, or resource restrictions;
+    • Send unsolicited bulk communications or engage in abusive email or network activity;
+    • Conduct automated collection or scraping of information in violation of applicable law or binding third-party restrictions;
+    • Generate or distribute unlawful impersonations, fraudulent synthetic content, or unlawful non-consensual intimate imagery;
+    • Resell or provide unauthorized third-party access to the Services without Warhollow’s prior written authorization; or
+    • Operate software, automated workloads, or other activities that materially interfere with the operation, security, or availability of Warhollow or other users.
+
+Legitimate software development, authorized security research, lawful automation, and ordinary commercial computing activities are permitted subject to these Terms.
+
+Warhollow may investigate suspected violations and may restrict or suspend Services where reasonably necessary to protect Warhollow, our infrastructure, our users, third parties, or the public.
+
+Warhollow may maintain a separate Acceptable Use Policy containing additional requirements. If adopted and made applicable to your use of the Services following appropriate notice, that policy forms part of these Terms.
+
+8. Security and Shared Responsibilities
+
+Warhollow uses reasonable administrative, technical, and physical safeguards designed to protect the Services.
+
+However, no computing environment or Internet-based service is completely secure.
+
+Security within the Services is a shared responsibility.
+
+Warhollow Responsibilities
+
+Warhollow is responsible for managing the underlying hosted infrastructure and the security controls under its management.
+
+Customer Responsibilities
+
+You are responsible for appropriately securing your workspace, including:
+
+    • Software, applications, and AI models you install;
+    • Credentials, API keys, and other secrets you create or store;
+    • Application updates and security patches under your control;
+    • Services or endpoints you expose;
+    • Access permissions you configure;
+    • Data and workloads you process within your workspace; and
+    • Security measures appropriate to your activities.
+
+You must promptly notify Warhollow if you become aware of unauthorized access, security vulnerabilities affecting the Services, or misuse of your workspace.
+
+You may not conduct security testing against Warhollow’s infrastructure or other users without our prior written authorization.
+
+9. Backups and Disaster Recovery
+
+Warhollow maintains backup and disaster recovery measures designed to support the recovery and reliability of the Services.
+
+Customer Workspace Backups
+
+Unless otherwise specified for a particular Service, Warhollow performs scheduled daily backups of eligible active customer workspaces.
+
+Workspace backups are encrypted and stored separately from the primary computing infrastructure.
+
+Warhollow ordinarily retains up to seven of the most recent verified daily workspace recovery points.
+
+Backup schedules and retention may be affected by technical failures, workspace status, maintenance, security incidents, or other operational circumstances.
+
+Restoration
+
+Workspace backups are principally intended to support recovery following infrastructure failure, workspace corruption, or other material operational incidents.
+
+Restoration may require Warhollow’s assistance and is subject to backup availability, technical feasibility, infrastructure capacity, and verification that the requesting party is authorized to access the restored environment.
+
+The Services do not include guaranteed individual-file recovery, continuous replication, archival storage, or unlimited historical version recovery unless expressly stated otherwise.
+
+Backup and recovery measures are designed to reduce the risk of data loss but cannot eliminate that risk.
+
+Warhollow does not guarantee a particular recovery point, recovery time, or the recovery of every file, configuration, application state, transaction, or prior version of Workspace Content.
+
+Changes made after the most recent usable recovery point may be lost.
+
+Customer Responsibility
+
+You remain responsible for maintaining appropriate independent copies of important Workspace Content.
+
+Warhollow’s backup service is not a substitute for your own backup, export, archival, or business continuity arrangements where the loss or unavailability of particular data could materially affect you.
+
+Nothing in this section limits obligations or remedies that cannot lawfully be excluded.
+
+10. Suspension and Termination
+
+Warhollow may suspend, stop, or restrict access to some or all of the Services where reasonably necessary because of:
+
+    • Nonpayment;
+    • Suspected fraud or abuse;
+    • A security threat or incident;
+    • Violation of these Terms or other applicable policies;
+    • Legal or regulatory requirements;
+    • Resource consumption or workloads that materially threaten infrastructure stability;
+    • Risk to Warhollow infrastructure or other users; or
+    • Circumstances requiring emergency maintenance or intervention.
+
+Where reasonably practicable, Warhollow will attempt to provide notice and an opportunity to address the issue.
+
+Immediate intervention may be necessary where providing advance notice would increase security, legal, operational, or other material risks.
+
+Warhollow may terminate an account or subscription for material or repeated violations of these Terms or where continued provision of the Services would create material legal, security, or operational risk.
+
+Where appropriate, you may contact Warhollow to request review of a suspension or termination decision.
+
+You may stop using the Services at any time, subject to applicable subscription and cancellation terms.
+
+11. Data Following Cancellation or Termination
+
+Following expiration or ordinary cancellation of a workspace subscription, Warhollow may stop, suspend, or deprovision the associated workspace.
+
+Unless otherwise stated, Warhollow ordinarily preserves a final recoverable workspace backup for approximately 30 days following the end of the subscription.
+
+This retention period is intended to support possible recovery or reactivation.
+
+It does not constitute an extension of your subscription or guarantee continued access to your workspace.
+
+Reactivation or restoration is subject to backup availability, technical feasibility, infrastructure capacity, account status, and any applicable fees disclosed before restoration.
+
+After the retention period expires, Warhollow may permanently delete the workspace and associated Workspace Content, including its recoverable backups.
+
+If an account or workspace is terminated for security, abuse, legal, or other exceptional reasons, Warhollow may restrict access or delete content sooner where reasonably necessary and permitted by applicable law.
+
+Residual encrypted copies may remain temporarily in backup systems until applicable deletion or retention processes are completed.
+
+Warhollow may also preserve information where required by law or reasonably necessary to resolve disputes or protect legal rights.
+
+You are responsible for exporting Workspace Content you wish to retain before your subscription ends.
+
+Nothing in this section limits any mandatory data access, portability, retrieval, switching, or other rights available under applicable law.
+
+12. Service Availability and Changes
+
+Warhollow aims to provide reliable Services but does not guarantee uninterrupted or error-free availability.
+
+The Services may occasionally be unavailable because of:
+
+    • Maintenance and upgrades;
+    • Hardware or infrastructure failures;
+    • Internet or network failures;
+    • Third-party service failures;
+    • Security incidents;
+    • Power interruptions;
+    • Infrastructure recovery activities; or
+    • Other circumstances outside Warhollow’s reasonable control.
+
+Warhollow may temporarily interrupt or restrict Services to perform necessary maintenance, protect infrastructure, or recover from an operational incident.
+
+Unless expressly agreed in writing, the Services are not subject to a guaranteed service-level agreement, availability percentage, recovery time, or service-credit commitment.
+
+Warhollow may modify, update, replace, or discontinue features from time to time.
+
+Where a change materially and adversely affects a paid Service, Warhollow will provide notice and any applicable cancellation or other remedy where reasonably practicable or required by law.
+
+13. Intellectual Property
+
+Warhollow and its licensors retain all rights in the Services, including Warhollow software, websites, interfaces, branding, designs, documentation, and related technology, excluding Workspace Content and third-party materials.
+
+These Terms do not grant you ownership of Warhollow technology or intellectual property.
+
+Subject to these Terms and payment of applicable fees, Warhollow grants you a limited, non-exclusive, non-transferable right to access and use the Services during your subscription.
+
+You may not copy, modify, distribute, sell, lease, reverse engineer, or attempt to derive source code from proprietary portions of the Services except where such restriction is prohibited by applicable law.
+
+Nothing in these Terms restricts rights independently granted to you under applicable open-source or other third-party software licenses.
+
+Warhollow’s names, logos, and other brand elements may not be used without authorization except as permitted by applicable law.
+
+14. Feedback
+
+If you provide suggestions, ideas, or feedback concerning Warhollow, you grant us permission to use that feedback without restriction or compensation to you.
+
+This does not give Warhollow ownership of your Workspace Content.
+
+15. Privacy and Data Protection
+
+Our Privacy Policy describes how we collect, use, disclose, retain, and protect personal information in connection with the Services.
+
+You are responsible for ensuring that your processing of personal information within your workspace complies with applicable privacy and data protection requirements.
+
+Where you determine the purposes and means of processing personal information within your workspace, you are responsible for applicable obligations relating to that processing, including lawful grounds, transparency, data subject rights, and appropriate security.
+
+Where required, the processing of personal information by Warhollow on your behalf will be subject to applicable contractual data protection terms.
+
+You must not use the Services to process information subject to specialized regulatory or contractual safeguards that Warhollow has not expressly agreed to provide.
+
+Unless expressly agreed in writing, Warhollow does not provide a business associate agreement or represent that its Services satisfy specialized HIPAA, payment card, government classification, or similar regulated-workload requirements.
+
+16. International Use, Geographic Location, and Export Controls
+
+Warhollow is a U.S.-based service provider and may make its Services available to customers in other countries, subject to applicable legal, operational, payment, capacity, and security restrictions.
+
+U.S.-Hosted Computing Environments
+
+Access to a U.S.-hosted computing environment does not establish:
+
+    • A legal business presence in the United States;
+    • U.S. residence;
+    • U.S. citizenship;
+    • A particular tax status;
+    • A U.S. business registration; or
+    • Eligibility for benefits, services, or legal rights restricted to particular persons or jurisdictions.
+
+Warhollow does not guarantee that third-party websites, applications, payment systems, AI models, or services will recognize a workspace as a U.S.-based user or permit access based on its network location.
+
+You are responsible for complying with applicable local laws, third-party terms, and geographic restrictions when accessing the Services or operating workloads within your workspace.
+
+Data Location
+
+Unless expressly stated otherwise, Warhollow’s primary workspace infrastructure is hosted in the United States.
+
+Associated information may be processed in other jurisdictions in connection with authentication, payment processing, network services, backup storage, support, and other operational activities.
+
+Warhollow does not provide an exclusive data residency commitment unless expressly agreed in writing.
+
+Export Controls and Economic Sanctions
+
+You may not access, use, transfer, or make the Services available in violation of applicable export control, economic sanctions, or trade restriction laws.
+
+You represent that you are not prohibited from receiving the Services under applicable legal restrictions.
+
+You are responsible for complying with applicable restrictions concerning the export, re-export, transfer, or use of software, technology, models, data, and computing resources.
+
+Warhollow may restrict or discontinue access where necessary to comply with applicable legal requirements.
+
+17. Intellectual Property Complaints and Unlawful Content
+
+Warhollow respects intellectual property rights and does not authorize use of its Services to infringe the rights of others.
+
+If you believe that content hosted through the Services infringes your rights or otherwise violates applicable law, you may contact Warhollow at:
+
+wh@thewarhollow.com
+
+Please provide sufficient information to identify the allegedly infringing or unlawful activity and explain the basis of your complaint.
+
+Warhollow may investigate complaints, restrict access to affected resources, remove content, or suspend or terminate accounts where appropriate and permitted by law.
+
+We may request additional information and may communicate relevant details to the affected customer or appropriate authorities where necessary and lawful.
+
+Warhollow may terminate accounts of repeat infringers in appropriate circumstances.
+
+Nothing in this section creates an obligation to routinely monitor customer Workspace Content.
+
+18. Disclaimers
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SERVICES ARE PROVIDED “AS IS” AND “AS AVAILABLE.”
+
+WARHOLLOW DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+WARHOLLOW DOES NOT WARRANT THAT THE SERVICES WILL BE UNINTERRUPTED, ERROR-FREE, COMPLETELY SECURE, OR FREE FROM HARMFUL COMPONENTS, OR THAT AI MODELS, SOFTWARE, OR OUTPUTS USED THROUGH THE SERVICES WILL BE ACCURATE, RELIABLE, OR SUITABLE FOR ANY PARTICULAR PURPOSE.
+
+WARHOLLOW DOES NOT GUARANTEE THE CONTINUED AVAILABILITY OF PARTICULAR THIRD-PARTY SERVICES, MODELS, APPLICATIONS, NETWORK LOCATIONS, OR COMPUTING RESOURCES EXCEPT AS EXPRESSLY AGREED.
+
+Nothing in these Terms excludes warranties, guarantees, or rights that cannot lawfully be excluded.
+
+19. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, WARHOLLOW AND ITS AFFILIATES, OFFICERS, EMPLOYEES, CONTRACTORS, AND SERVICE PROVIDERS WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR LOSS OF PROFITS, REVENUE, BUSINESS, GOODWILL, DATA, OR USE, ARISING OUT OF OR RELATING TO THE SERVICES.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, WARHOLLOW’S AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO THE SERVICES OR THESE TERMS WILL NOT EXCEED THE GREATER OF:
+
+(A) THE AMOUNTS YOU PAID TO WARHOLLOW FOR THE SERVICES DURING THE THREE MONTHS PRECEDING THE EVENT GIVING RISE TO THE CLAIM; OR
+
+(B) US $100.
+
+These limitations apply regardless of the theory of liability and even if Warhollow has been advised of the possibility of damages.
+
+Nothing in these Terms excludes or limits liability for fraud, willful misconduct, gross negligence, death or personal injury, or other liability to the extent such exclusion or limitation is prohibited by applicable law.
+
+Some jurisdictions do not allow certain limitations of liability, so some of these limitations may not apply to you.
+
+20. Indemnification
+
+To the extent permitted by law, you agree to indemnify and hold harmless Warhollow and its affiliates, officers, employees, and contractors from third-party claims, damages, liabilities, losses, and reasonable costs arising from:
+
+    • Your Workspace Content;
+    • Your unlawful or unauthorized use of the Services;
+    • Your material violation of these Terms;
+    • Your infringement or violation of another person’s rights; or
+    • Unlawful activities conducted through applications, software, or automated processes operated under your control.
+
+Warhollow will provide reasonable notice of any covered claim and reasonable cooperation in the defense.
+
+This section does not require you to indemnify Warhollow to the extent a claim results from Warhollow’s own unlawful conduct or other circumstances for which indemnification cannot lawfully be required.
+
+21. Governing Law and Disputes
+
+These Terms are governed by the laws of the State of New York, without regard to conflict-of-law principles.
+
+Before initiating a formal legal proceeding, the parties are encouraged to attempt to resolve disputes through good-faith communications.
+
+Unless applicable law requires otherwise, any legal proceeding arising out of or relating to these Terms or the Services will be brought exclusively in the state or federal courts located in New York County, New York, and you consent to the personal jurisdiction of those courts.
+
+Nothing in these Terms deprives you of mandatory consumer protections, dispute resolution rights, or other rights that cannot lawfully be waived under the laws applicable to you.
+
+22. Changes to These Terms
+
+Warhollow may update these Terms from time to time to reflect changes to the Services, our business practices, technology, or applicable law.
+
+The updated Terms will identify the date they were last revised.
+
+If we make material changes, we will provide appropriate notice before the changes take effect, subject to applicable law and circumstances requiring more immediate changes.
+
+Where required, we may ask you to affirmatively accept updated Terms before continuing to use some or all of the Services.
+
+If you do not agree to updated Terms, you may discontinue use of the Services and cancel your subscription, subject to applicable law and subscription terms.
+
+Material changes will not retroactively alter accrued rights or obligations except where permitted by applicable law and validly agreed.
+
+23. Force Majeure
+
+Neither party will be responsible for a failure or delay in performing its obligations to the extent caused by circumstances beyond its reasonable control.
+
+Such circumstances may include natural disasters, fires, floods, power failures, telecommunications failures, government actions, labor disruptions, armed conflicts, civil disturbances, and other events beyond the affected party’s reasonable control.
+
+The affected party will take reasonable measures to mitigate the impact of such circumstances where practicable.
+
+This section does not excuse payment obligations already incurred or other obligations that cannot lawfully be excused.
+
+24. General Terms
+
+Severability
+
+If any provision of these Terms is held unenforceable, the remaining provisions will remain in effect.
+
+No Waiver
+
+Our failure to enforce a provision does not waive our right to enforce it later.
+
+Assignment
+
+You may not assign these Terms without Warhollow’s prior written consent.
+
+Warhollow may assign these Terms in connection with a merger, acquisition, reorganization, sale of assets, or by operation of law, subject to applicable law.
+
+Relationship of the Parties
+
+Nothing in these Terms creates a partnership, joint venture, agency, employment, or fiduciary relationship between you and Warhollow.
+
+Survival
+
+Provisions that by their nature should survive expiration or termination will remain applicable following expiration or termination of these Terms.
+
+Electronic Communications
+
+You agree that account notices, transaction records, contractual notices, and other communications may be provided electronically, subject to applicable law.
+
+Entire Agreement
+
+These Terms, together with any applicable Acceptable Use Policy, contractual data protection terms, and additional terms presented when you purchase or use a particular Service, constitute the agreement between you and Warhollow regarding the Services.
+
+Our Privacy Policy describes our personal information processing practices.
+
+Where separately agreed data protection terms conflict with these Terms concerning the processing of personal information, the applicable data protection terms will control to the extent of that conflict.
+
+25. Contact
+
+Questions concerning these Terms, the Services, subscriptions, or other contractual matters may be directed to:
+
+Warhollow LLC
+
+Email: wh@thewarhollow.com
+
+Website: warhollow.com

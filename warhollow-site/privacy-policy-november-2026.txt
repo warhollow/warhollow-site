@@ -1,0 +1,526 @@
+WARHOLLOW PRIVACY POLICY
+Last Updated: November 23, 2026
+Warhollow LLC (“Warhollow,” “we,” “us,” or “our”) provides hosted computing infrastructure, virtual workspaces, AI development environments, and related services.
+This Privacy Policy explains how we collect, use, disclose, retain, and protect personal information in connection with our websites, customer portals, computing environments, communications, and related services (collectively, the “Services”).
+We recognize that customers may use Warhollow to develop applications, operate AI models, conduct research, process information, and maintain sensitive or commercially valuable projects. Respecting the privacy and confidentiality of customer environments is an important part of our approach to providing the Services.
+1. Scope of This Privacy Policy
+This Privacy Policy applies to personal information we process in connection with:
+    • Visitors to our websites;
+    • Individuals who contact or otherwise communicate with us;
+    • Prospective customers;
+    • Registered users and account holders;
+    • Customers purchasing or using our Services;
+    • Representatives and authorized users of our business customers; and
+    • Individuals whose information we otherwise process in connection with operating, securing, or supporting the Services.
+This Privacy Policy does not govern the independent privacy practices of third-party websites, applications, AI models, software, or services that customers choose to access or use through their Warhollow environments.
+Where we process personal information on behalf of a customer within its computing environment, that processing may also be governed by applicable contractual data protection terms.
+2. Our Role in Processing Personal Information
+Our role depends on the nature and purpose of the processing.
+Information We Process for Our Own Purposes
+Warhollow generally acts as a controller, business, or equivalent responsible organization under applicable privacy laws when we determine the purposes and means of processing personal information in connection with:
+    • Account registration and administration;
+    • Customer identification and authentication;
+    • Subscription management and billing;
+    • Customer communications and support;
+    • Website operation;
+    • Infrastructure management;
+    • Security, fraud prevention, and abuse prevention;
+    • Business administration; and
+    • Compliance with legal obligations.
+Information Processed Within Customer Workspaces
+Customers determine what files, applications, AI models, prompts, datasets, and other information they place, create, or process within their computing environments (“Workspace Content”).
+Where customers process personal information within their workspaces for their own purposes, the customer is generally responsible for determining the purposes and means of that processing.
+To the extent Warhollow processes such personal information solely on behalf of a customer in providing hosting, storage, backup, recovery, or related infrastructure services, Warhollow may act as a processor, service provider, or equivalent entity under applicable privacy laws.
+Where required, such processing is subject to applicable data protection terms.
+Customers are responsible for providing appropriate privacy notices, establishing lawful grounds for processing, responding to individual rights requests, and otherwise complying with privacy obligations applicable to their use of the Services.
+3. Information We Collect
+The categories of personal information we collect depend on your interactions with Warhollow and the Services you use.
+A. Account and Contact Information
+When you register for an account, contact us, purchase Services, or otherwise interact with Warhollow, we may collect:
+    • Name;
+    • Email address;
+    • Account identifiers;
+    • Organization or company name;
+    • Business contact information;
+    • Country or region;
+    • Billing contact information;
+    • Account preferences;
+    • Authentication and account verification information; and
+    • Information you voluntarily provide through forms, inquiries, or communications.
+We may receive certain account information from our authentication providers, including information necessary to establish, verify, and manage your account.
+B. Subscription and Transaction Information
+When you purchase or manage a subscription, we may collect or receive:
+    • Subscription identifiers;
+    • Selected products and configurations;
+    • Subscription status;
+    • Billing period and renewal information;
+    • Transaction identifiers;
+    • Payment confirmation and status;
+    • Billing address;
+    • Tax-related information;
+    • Invoice information;
+    • Refund and cancellation information;
+    • Limited payment method information; and
+    • Records of purchases and other transactions.
+Payment processing is performed through third-party payment providers.
+We generally do not receive or maintain complete payment card numbers or card security codes when payments are processed through our hosted payment provider’s checkout functionality.
+Our payment providers may independently collect and process payment information, transaction information, and other information necessary to process payments, prevent fraud, and comply with their legal obligations.
+C. Website, Device, and Connection Information
+When you access our websites, portals, or Services, we or our service providers may collect technical information, including:
+    • Internet Protocol (IP) address;
+    • Browser type and version;
+    • Operating system;
+    • Device and browser characteristics;
+    • Referring pages;
+    • Requested URLs and resources;
+    • Date and time of access;
+    • Session identifiers;
+    • Authentication events;
+    • General geographic information inferred from IP addresses;
+    • Network connection information;
+    • Error information; and
+    • Website interaction information.
+This information may be collected through server logs, cookies, authentication services, network security services, and similar technologies.
+D. Service and Infrastructure Information
+To provision, operate, maintain, secure, and support our computing infrastructure, we may generate or collect operational information, including:
+    • Workspace and virtual machine identifiers;
+    • Provisioning and configuration information;
+    • Product and resource allocations;
+    • Workspace status;
+    • Service lifecycle information;
+    • CPU, memory, storage, and network utilization;
+    • Connection and access events;
+    • System and service health information;
+    • Error and diagnostic information;
+    • Backup and restoration status;
+    • Security events;
+    • Administrative activity records; and
+    • Information concerning suspected misuse, fraud, or abuse.
+Operational monitoring is principally intended to support the functioning, reliability, and security of the Services rather than to monitor the substance of customer projects or communications.
+E. Customer Support and Communications
+When you contact us, request assistance, provide feedback, or communicate with Warhollow, we may collect:
+    • Contact information;
+    • The contents of your communications;
+    • Support requests;
+    • Relevant account and workspace information;
+    • Diagnostic information;
+    • Screenshots, files, or logs you voluntarily provide; and
+    • Records of our response and resolution.
+Please avoid providing passwords, private keys, payment card information, or unnecessary sensitive information through ordinary support channels.
+F. Workspace Content
+Depending on how you use the Services, your workspace may contain:
+    • Files and documents;
+    • Software and source code;
+    • Databases and datasets;
+    • AI models and model weights;
+    • Prompts and AI-generated outputs;
+    • Application configurations;
+    • Communications;
+    • Credentials and API keys;
+    • Research materials; and
+    • Other information stored, created, or processed by you.
+Warhollow processes Workspace Content to the extent necessary to provide hosting, storage, backup, recovery, security, support, and related infrastructure services.
+Workspace Content may contain personal information, confidential information, or other information that Warhollow does not independently collect for its own business purposes.
+Our practices concerning Workspace Content are described in greater detail below.
+4. Sources of Personal Information
+We obtain personal information from:
+    • You directly;
+    • Your use of our websites, portals, and Services;
+    • Organizations that authorize you to use their Warhollow accounts;
+    • Authentication and identity providers;
+    • Payment and billing providers;
+    • Infrastructure, network, and security services;
+    • Customer support communications;
+    • Referrals or other authorized sources; and
+    • Publicly available or other lawful sources, where reasonably necessary for security, fraud prevention, compliance, or business administration.
+Where an organization provides your information to Warhollow, that organization may also be responsible for explaining its own processing of your information.
+5. How We Use Personal Information
+We use personal information for the following purposes.
+Providing and Administering the Services
+    • Creating and managing accounts;
+    • Authenticating users;
+    • Provisioning and configuring computing environments;
+    • Managing subscriptions and resource allocations;
+    • Providing access to customer workspaces;
+    • Operating customer portals;
+    • Maintaining service functionality; and
+    • Administering customer relationships.
+Billing and Transactions
+    • Processing purchases;
+    • Managing recurring subscriptions;
+    • Generating invoices;
+    • Confirming payments;
+    • Administering refunds and cancellations;
+    • Maintaining financial records;
+    • Calculating applicable taxes; and
+    • Preventing payment fraud.
+Infrastructure Operations and Reliability
+    • Monitoring infrastructure availability and health;
+    • Managing computing, storage, and network capacity;
+    • Diagnosing and resolving technical issues;
+    • Maintaining and improving service reliability;
+    • Performing maintenance and updates;
+    • Creating and verifying backups;
+    • Restoring computing environments; and
+    • Supporting disaster recovery and business continuity.
+Security and Abuse Prevention
+    • Protecting accounts, workspaces, networks, and infrastructure;
+    • Detecting suspicious or unauthorized activity;
+    • Preventing fraud, malware, and infrastructure abuse;
+    • Investigating security incidents;
+    • Enforcing access restrictions and resource limits;
+    • Maintaining security and administrative logs;
+    • Enforcing our Terms of Service and applicable policies; and
+    • Protecting the rights, safety, and property of Warhollow, customers, and others.
+Communications and Customer Support
+    • Responding to inquiries;
+    • Providing technical and account support;
+    • Sending billing and subscription notices;
+    • Providing security alerts and operational updates;
+    • Communicating material changes to the Services or applicable terms;
+    • Requesting feedback; and
+    • Managing customer relationships.
+Business and Product Development
+    • Understanding how our Services are used;
+    • Evaluating product demand and infrastructure requirements;
+    • Improving website functionality and customer experience;
+    • Planning new features and configurations;
+    • Conducting internal business analysis; and
+    • Developing and improving our Services using operational information and other appropriately obtained information.
+This does not include using customer Workspace Content to train Warhollow’s own AI models.
+Marketing
+We may use contact information to communicate about Warhollow products, features, availability, and other relevant developments.
+Where required by applicable law, we obtain consent before sending marketing communications.
+You may opt out of promotional communications at any time.
+Legal and Administrative Purposes
+    • Complying with applicable laws and regulations;
+    • Responding to lawful requests from competent authorities;
+    • Maintaining accounting and business records;
+    • Managing legal claims and disputes;
+    • Establishing, exercising, or defending legal rights; and
+    • Supporting corporate transactions and other legitimate business activities.
+6. Customer Workspace Privacy
+Warhollow provides infrastructure for customers to operate their own computing environments.
+Customer Ownership and Control
+Customers retain their rights in their Workspace Content, subject to applicable law and any third-party rights.
+Warhollow does not acquire ownership of customer Workspace Content merely because it is hosted or processed through the Services.
+No Routine Inspection of Workspace Content
+Warhollow does not routinely inspect the contents of customer workspaces, including customer files, source code, prompts, model outputs, or application data.
+Our ordinary infrastructure operations focus on managing computing resources, service availability, access controls, security, backup status, and other operational information.
+Restricted Administrative Access
+As an infrastructure provider, Warhollow may have technical capabilities that permit administrative access to customer environments.
+Restricted administrative access may occur where reasonably necessary to:
+    • Provide requested technical support;
+    • Perform maintenance or recovery operations;
+    • Investigate and resolve technical failures;
+    • Protect infrastructure and other customers;
+    • Investigate reasonably suspected violations of our Terms of Service;
+    • Investigate security incidents;
+    • Respond to lawful requests or comply with legal obligations; or
+    • Protect the rights, safety, or property of Warhollow, customers, or others.
+Such access is subject to applicable authorization requirements, access restrictions, and confidentiality obligations.
+Nothing in this Privacy Policy represents that Warhollow is technically incapable of accessing customer Workspace Content.
+AI Model Training
+Warhollow does not use customer Workspace Content, including customer files, prompts, datasets, source code, or outputs, to train Warhollow’s own AI models.
+We do not make customer Workspace Content available to other customers for their independent use.
+This commitment does not govern the independent practices of external AI models, APIs, applications, or services that customers choose to use.
+Workspace Isolation
+Warhollow uses virtualized computing environments and associated access controls designed to maintain logical separation between customer workspaces.
+Customer environments may operate on shared physical infrastructure.
+Logical workspace isolation does not constitute a representation that a customer receives a dedicated physical server or that any computing system is entirely immune from security vulnerabilities.
+7. Third-Party AI Models, Applications, and Services
+Customers may install or use third-party AI models, software, applications, agents, APIs, and computing services within or in connection with their Warhollow environments.
+Some models and applications may operate locally within the customer’s workspace. Others may transmit information to third-party systems.
+Where you choose to connect to or use an external service, information may be transmitted to that service according to your configuration, instructions, and use of the service.
+Such information may include prompts, files, credentials, application data, personal information, or AI-generated outputs.
+Third-party providers may process that information under their own terms, licenses, and privacy policies.
+Warhollow does not control the independent data retention, AI training, security, or other processing practices of third-party services selected by customers.
+Customers should evaluate the privacy and security practices of any external service before transmitting personal, confidential, or sensitive information.
+8. Cookies and Similar Technologies
+Warhollow and its service providers may use cookies, browser storage, session identifiers, and similar technologies in connection with our websites and customer portals.
+These technologies may be used for:
+    • Authentication and login sessions;
+    • Account security;
+    • Maintaining user preferences;
+    • Fraud and abuse prevention;
+    • Network security;
+    • Website functionality;
+    • Session management;
+    • Performance and reliability; and
+    • Understanding website and service usage.
+Certain technologies are necessary to provide functionality that you request or to maintain the security of the Services.
+Where we use non-essential cookies or similar technologies for purposes requiring consent, we will provide appropriate choices and obtain consent as required by applicable law.
+Our authentication, payment, and security providers may use cookies or similar technologies in providing their services.
+You may manage cookies through your browser settings and any cookie preference functionality we make available. Restricting certain cookies may affect your ability to sign in, complete purchases, or use parts of the Services.
+Warhollow does not sell personal information or share personal information for cross-context behavioral advertising or targeted advertising as those terms are defined under applicable privacy laws.
+9. Legal Bases for Processing
+Where applicable privacy law requires a legal basis for processing personal information, we rely on one or more of the following:
+Performance of a Contract
+We process information necessary to provide requested Services, administer accounts, manage subscriptions, provision workspaces, process transactions, and fulfill contractual obligations.
+Legitimate Interests
+Where permitted by applicable law, we process information for legitimate business interests, including:
+    • Maintaining and improving infrastructure reliability;
+    • Protecting the security of our Services;
+    • Preventing fraud and abuse;
+    • Providing customer support;
+    • Managing business relationships;
+    • Developing our products;
+    • Maintaining internal records; and
+    • Establishing, exercising, or defending legal rights.
+We consider the nature of the information, the reasonable expectations of individuals, and the potential impact on their rights and interests.
+Compliance With Legal Obligations
+We process information where necessary to comply with applicable accounting, tax, regulatory, privacy, security, judicial, or other legal obligations.
+Consent
+We rely on consent where required by applicable law or where we otherwise request your consent for a particular processing activity.
+Where processing is based on consent, you may withdraw that consent at any time without affecting the lawfulness of processing conducted before withdrawal.
+Other Lawful Grounds
+We may process information on other lawful grounds recognized under applicable privacy laws, including grounds relating to the protection of vital interests or applicable statutory exceptions.
+Where Warhollow acts as a processor on behalf of a customer, the customer is generally responsible for determining the applicable legal basis for processing personal information within its workspace.
+10. How We Disclose Personal Information
+Warhollow does not sell or rent personal information.
+We may disclose personal information in the following circumstances.
+Service Providers and Infrastructure Partners
+We use third-party providers to support the operation of our Services.
+These may include providers of:
+    • Data center and colocation services;
+    • Network connectivity;
+    • Content delivery and network security;
+    • Authentication and account management;
+    • Payment processing and billing;
+    • Cloud storage and backup infrastructure;
+    • Monitoring and operational alerts;
+    • Communications and customer support;
+    • Software development and deployment infrastructure; and
+    • Other technical and business services.
+Providers may receive information necessary to perform their respective functions.
+Where appropriate, providers are subject to contractual restrictions concerning their processing and protection of personal information.
+Examples of Technology Providers
+Our service infrastructure may include:
+    • Clerk for account authentication and identity management;
+    • Stripe for payment processing and subscription-related functionality;
+    • Cloudflare for network connectivity, access controls, security, and website infrastructure;
+    • Backblaze for off-site backup storage;
+    • Form service providers for facilitating website inquiries, where used; and
+    • Other infrastructure and operational service providers necessary to deliver the Services.
+Some providers may act as independent controllers for certain activities they perform for their own purposes, including fraud prevention, payment processing, account security, and legal compliance.
+The providers we use may change as our Services evolve.
+Authorized Users and Organizations
+Where you use an account associated with an organization, relevant account and service information may be made available to authorized representatives of that organization.
+Your organization may establish its own rules governing your access to and use of its computing environments.
+Legal and Regulatory Disclosures
+We may disclose information where reasonably necessary to:
+    • Comply with applicable law;
+    • Respond to valid legal process;
+    • Respond to lawful requests from competent government authorities;
+    • Investigate fraud, abuse, or security incidents;
+    • Enforce our contractual rights;
+    • Establish, exercise, or defend legal claims; or
+    • Protect the rights, safety, or property of Warhollow, customers, or others.
+Professional Advisers
+We may disclose relevant information to legal advisers, accountants, auditors, insurers, and other professional advisers where necessary for legitimate business, legal, or administrative purposes.
+Corporate Transactions
+Information may be disclosed in connection with a proposed or completed merger, acquisition, financing, restructuring, sale of assets, insolvency proceeding, or similar corporate transaction, subject to appropriate confidentiality and legal safeguards.
+At Your Direction
+We may disclose information where you authorize or direct us to do so, including where you request integration with a third-party service or authorize technical support involving another provider.
+11. International Data Transfers
+Warhollow is a United States-based service provider.
+Unless otherwise expressly stated, Warhollow’s primary customer workspace infrastructure is hosted in the United States.
+If you access the Services from outside the United States, personal information may be transferred to, stored in, or processed in the United States.
+Our service providers may also process information in other jurisdictions in connection with authentication, payments, network operations, support, storage, backup, and other service-related functions.
+The location of your primary computing environment does not necessarily determine the location of every processing activity associated with the Services.
+Privacy and data protection laws in the jurisdictions where information is processed may differ from those in your country of residence.
+Where required by applicable law, Warhollow implements appropriate safeguards for international transfers of personal information, which may include:
+    • Transfers to jurisdictions recognized as providing an adequate level of protection;
+    • Applicable standard contractual clauses;
+    • UK international data transfer mechanisms;
+    • Contractual data protection obligations;
+    • Transfer assessments and supplementary safeguards where appropriate; or
+    • Other legally recognized transfer mechanisms.
+Where Warhollow processes personal information on behalf of a customer, international transfer requirements may be addressed through applicable contractual data protection terms.
+You may contact us for further information concerning safeguards applicable to relevant international transfers.
+12. Backups and Disaster Recovery
+Warhollow maintains backup and recovery measures designed to support the reliability and recoverability of customer environments and underlying service infrastructure.
+Active Workspace Backups
+Warhollow performs scheduled daily backups of eligible active customer workspaces.
+Workspace backups are encrypted and stored separately from the primary computing infrastructure.
+13. Data Retention
+We retain personal information for as long as reasonably necessary to fulfill the purposes described in this Privacy Policy, taking into account contractual requirements, applicable law, operational requirements, security needs, and legitimate business interests.
+Account Information
+Account information is generally retained while your account remains active and for an additional period where reasonably necessary to administer our relationship, manage outstanding obligations, prevent fraud, or comply with applicable law.
+Billing and Transaction Information
+Billing, payment, invoice, and transaction records may be retained for periods necessary to comply with tax, accounting, financial, contractual, and legal requirements.
+Website and Operational Information
+Website logs, infrastructure information, diagnostic information, security records, and monitoring information are retained for periods appropriate to their respective operational, security, troubleshooting, and compliance purposes.
+Retention periods may vary depending on the nature of the information and the circumstances in which it was collected.
+Customer Support Information
+Customer communications and support records may be retained for periods necessary to resolve inquiries, maintain service history, improve support, address disputes, and comply with legal obligations.
+Active Workspace Content
+Workspace Content is generally retained for the duration of the applicable subscription, subject to customer actions, service limitations, and our Terms of Service.
+Workspace Content Following Cancellation
+Following ordinary cancellation or expiration of a workspace subscription, Warhollow may stop, suspend, or deprovision the associated computing environment.
+Warhollow ordinarily preserves a final recoverable workspace backup for approximately 30 days following the end of the subscription.
+This period is intended to support potential recovery or reactivation. It does not guarantee continued workspace access or successful restoration.
+Following expiration of the retention period, the workspace and associated backups may be permanently deleted.
+Where an account or environment is terminated for security, abuse, legal, or other exceptional reasons, information may be restricted or deleted earlier where reasonably necessary and permitted by law.
+Backup Deletion
+Information deleted from active systems may remain temporarily in encrypted backups until applicable backup retention and deletion processes are completed.
+Residual backup copies remain subject to applicable security and access restrictions.
+Legal Retention
+We may retain information beyond otherwise applicable retention periods where reasonably necessary to:
+    • Comply with legal obligations;
+    • Preserve records subject to legal holds;
+    • Investigate fraud, abuse, or security incidents;
+    • Resolve disputes;
+    • Enforce our agreements; or
+    • Establish, exercise, or defend legal rights.
+Where appropriate, information may instead be deleted, de-identified, or aggregated so that it no longer reasonably identifies an individual.
+14. Information Security
+Warhollow maintains administrative, technical, and physical safeguards designed to protect personal information and customer environments against unauthorized access, disclosure, alteration, misuse, and loss.
+Depending on the nature of the information and systems involved, these safeguards may include:
+    • Encryption of communications;
+    • Encrypted off-site backups;
+    • Authentication and access controls;
+    • Restricted administrative access;
+    • Logical separation of customer environments;
+    • Network segmentation and security controls;
+    • Monitoring and operational alerts;
+    • Backup integrity verification;
+    • Recovery procedures and restoration testing;
+    • Credential management;
+    • System maintenance and security updates; and
+    • Access restrictions appropriate to operational responsibilities.
+Security is a shared responsibility.
+Customers remain responsible for securing the software, applications, credentials, API keys, data, configurations, and access permissions within their control.
+Customers should maintain appropriate independent copies of important information and implement security measures suitable for their own workloads.
+No method of electronic transmission, storage, or computing is completely secure. Accordingly, Warhollow cannot guarantee absolute security or the prevention of every security incident.
+If we become aware of a personal information breach, we will investigate and take appropriate measures in accordance with applicable legal and contractual obligations, including notification where required.
+15. Sensitive and Regulated Information
+Warhollow does not require customers to provide sensitive personal information merely to register for or purchase ordinary computing Services.
+Customers may nevertheless choose to process sensitive or confidential information within their workspaces.
+Customers are responsible for determining whether the Services are appropriate for the information they intend to process and for complying with applicable legal, regulatory, contractual, and security requirements.
+Unless expressly agreed in writing, Warhollow does not represent that its Services satisfy specialized requirements applicable to particular categories of regulated information, including protected health information subject to HIPAA or payment card data subject to specialized payment security requirements.
+Customers should not use the Services for workloads requiring specialized regulatory or contractual safeguards that Warhollow has not expressly agreed to provide.
+16. Your Privacy Rights
+Depending on your jurisdiction and the circumstances of the processing, applicable privacy laws may provide you with certain rights concerning your personal information.
+These may include the right to:
+    • Confirm whether we process your personal information;
+    • Request access to personal information;
+    • Obtain a copy of personal information;
+    • Request correction of inaccurate information;
+    • Request deletion of personal information;
+    • Request restriction of processing;
+    • Object to certain processing;
+    • Withdraw consent;
+    • Request data portability;
+    • Opt out of certain marketing activities;
+    • Opt out of the sale or sharing of personal information or targeted advertising;
+    • Limit certain uses or disclosures of sensitive personal information;
+    • Obtain information concerning certain disclosures or international transfers;
+    • Appeal a decision concerning a privacy request; and
+    • Lodge a complaint with an applicable privacy or data protection authority.
+These rights may be subject to conditions, limitations, and exceptions under applicable law.
+Exercising Your Rights
+You may submit a privacy request by contacting us by email at:
+<<wh ((at)) thewarhollow ((dot)) com>>
+Please provide sufficient information to allow us to understand and respond to your request.
+We may request information reasonably necessary to verify your identity or confirm your authority to act on another individual’s behalf.
+Where required, we will respond within applicable statutory timeframes.
+We will not unlawfully discriminate or retaliate against you for exercising applicable privacy rights.
+Information Within Customer Workspaces
+Where personal information is processed within a customer-controlled workspace and Warhollow acts solely on behalf of that customer, we may direct your request to the relevant customer or otherwise assist that customer as required by applicable contractual and legal obligations.
+We may not be able to independently identify personal information contained within customer files, applications, databases, or other Workspace Content.
+17. European Economic Area, United Kingdom, and Switzerland
+Where the EU General Data Protection Regulation, UK General Data Protection Regulation, Swiss data protection law, or related legislation applies, individuals may have additional rights and protections concerning their personal information.
+Warhollow LLC is the controller of personal information for processing activities where Warhollow determines the purposes and means of processing.
+Our applicable legal bases are described in Section 9.
+International transfer safeguards are described in Section 11.
+Depending on the applicable law, you may have rights of access, rectification, erasure, restriction, objection, portability, and withdrawal of consent.
+Where we rely on legitimate interests, you may object to processing on grounds relating to your particular situation, subject to applicable exceptions.
+You may object to processing for direct marketing purposes.
+We do not make decisions based solely on automated processing that produce legal or similarly significant effects on individuals except where permitted by applicable law and subject to applicable safeguards and notices.
+You may lodge a complaint with the data protection authority responsible for your jurisdiction.
+Where required by applicable law, additional information concerning designated representatives, data protection contacts, or other regulatory arrangements will be made available.
+18. United States Privacy Disclosures
+Certain United States state privacy laws provide additional rights and require specific disclosures concerning personal information.
+Where those laws apply to Warhollow, the following disclosures supplement this Privacy Policy.
+Categories of Personal Information
+Depending on the Services used, we may collect:
+Category
+Examples
+Identifiers
+Name, email address, account identifiers, IP address
+Customer and contact records
+Contact details, billing details, account information
+Commercial information
+Subscriptions, transactions, purchases, cancellations
+Internet or electronic activity
+Website access, authentication events, service usage and technical logs
+General geographic information
+Country or region inferred from IP information
+Professional information
+Organization name and business contact details
+Communications
+Customer inquiries, support requests, feedback
+Operational and diagnostic information
+Workspace identifiers, service health, resource utilization and security events
+Certain authentication information may constitute sensitive personal information under applicable law.
+We use such information for authentication, account security, fraud prevention, service provision, and other permitted purposes.
+Customers may independently process additional categories of information within their workspaces. Such information is subject to the customer workspace provisions of this Privacy Policy.
+Purposes and Disclosures
+The categories described above may be processed for the business and commercial purposes described in Section 5 and disclosed to the categories of recipients described in Section 10.
+Sale, Sharing, and Targeted Advertising
+Warhollow does not sell personal information or share personal information for cross-context behavioral advertising.
+We do not process personal information for targeted advertising as defined under applicable comprehensive U.S. state privacy laws.
+Sensitive Personal Information
+Where applicable, we process sensitive personal information only for purposes permitted by law, including providing requested Services, authentication, security, fraud prevention, and legal compliance.
+Retention
+Our retention practices and the criteria used to determine retention periods are described in Section 13.
+State Privacy Rights
+Depending on your state of residence and applicable law, you may have rights to access, correct, delete, or obtain a portable copy of personal information, opt out of specified processing activities, or appeal our response to a privacy request.
+You or an authorized agent may submit a request using the contact information provided in Section 16.
+Where an appeal right applies, you may appeal our decision by contacting us and identifying the request and decision you wish to appeal.
+Warhollow will handle legally recognized privacy preference signals, including Global Privacy Control, in accordance with applicable law.
+Because Warhollow does not engage in the sale or sharing of personal information or targeted advertising as described above, an opt-out signal concerning those activities may not require additional changes to our processing.
+19. Singapore and Other Asia-Pacific Jurisdictions
+Warhollow may provide Services to customers in Singapore, Japan, Australia, South Korea, and other Asia-Pacific jurisdictions.
+Where Singapore’s Personal Data Protection Act or other applicable regional privacy laws apply, we process personal information in accordance with applicable requirements concerning notice, consent or other permitted grounds for processing, purpose limitation, access, correction, protection, retention, and international transfers.
+Individuals in Singapore may contact us to request access to or correction of their personal information, withdraw consent where applicable, or raise concerns regarding our processing of personal information.
+Requests and privacy inquiries may be directed to the contact information provided in Section 16.
+Personal information associated with customers residing in Singapore or other Asia-Pacific jurisdictions may be transferred to and processed in the United States and other jurisdictions in connection with providing the Services.
+Where applicable law requires comparable protection or other safeguards for international transfers, Warhollow will implement appropriate measures.
+The availability of U.S.-hosted infrastructure does not constitute a representation that personal information remains within Singapore or any other customer’s country of residence.
+Additional rights available under applicable local privacy laws are not limited by this Privacy Policy.
+20. Marketing Communications
+You may opt out of promotional communications by using an unsubscribe mechanism included in our communications or by contacting us.
+Opting out of promotional communications does not prevent us from sending necessary service-related messages, including:
+    • Account verification messages;
+    • Billing and transaction notices;
+    • Subscription renewal information;
+    • Security alerts;
+    • Service interruption notices;
+    • Support communications; and
+    • Material contractual or privacy updates.
+21. Children’s Privacy
+The Services are not directed to children.
+Our Terms of Service require account holders to be at least 18 years old.
+Warhollow does not knowingly collect personal information directly from children in violation of applicable law.
+Customers processing information concerning children within their own workspaces are responsible for complying with applicable laws and determining whether the Services are appropriate for that processing.
+22. De-Identified and Aggregated Information
+Warhollow may create or use information that has been aggregated or de-identified so that it does not reasonably identify an individual.
+Such information may be used for legitimate purposes, including infrastructure planning, service reliability, product development, business analysis, and statistical reporting.
+Where required by applicable law, we maintain and use de-identified information in a manner designed to prevent re-identification and do not attempt to re-identify it except as permitted by law.
+23. Third-Party Websites and External Services
+Our websites and Services may contain links to or facilitate access to third-party websites, applications, software, or services.
+Those external services operate under their own privacy practices.
+Warhollow is not responsible for the independent privacy practices of third parties.
+We encourage you to review the privacy policies and applicable terms of external services before providing personal information or authorizing access to Workspace Content.
+24. Changes to This Privacy Policy
+We may update this Privacy Policy to reflect changes in our Services, technology, business practices, or applicable legal requirements.
+Updated versions will be made available through our website and will identify the date of the most recent revision.
+Where we make material changes, we will provide additional notice or obtain consent where required by applicable law.
+25. Contact Information
+For questions, concerns, privacy requests, or complaints relating to this Privacy Policy or our processing of personal information, please contact:
+Warhollow LLC
+Privacy Contact: <<wh ((at)) thewarhollow ((dot)) com>>
+Website: warhollow.com
+We will review and respond to privacy inquiries in accordance with applicable law.

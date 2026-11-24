@@ -35,12 +35,27 @@
       <div class="hero-console" aria-label="Illustration of a ready Warhollow environment">
         <div class="console-bar"><span><i></i><i></i><i></i></span><span>warhollow / headquarters</span><span>US · ONLINE</span></div>
         <div class="console-body">
-          <div class="console-sidebar"><span class="active">Overview</span><span>Projects</span><span>Applications</span><span>Files</span><span>Terminal</span></div>
+          <div class="console-sidebar console-icon-rail" aria-label="Workspace tools"><span class="active" title="Overview">◎</span><span title="Projects">◇</span><span title="Applications">▦</span><span title="Files">▱</span><span title="Terminal">⌁</span></div>
           <div class="console-main">
-            <p class="console-kicker">HEADQUARTERS STATUS</p>
-            <div class="console-ready"><h2>Ready to build</h2><span class="activity-track" aria-hidden="true"><i></i></span></div>
-            <div class="console-metrics"><div><span>ENVIRONMENT</span><strong>Persistent</strong></div><div><span>ACCESS</span><strong>Browser</strong></div><div><span>LOCATION</span><strong>New York, US</strong></div></div>
-            <div class="console-terminal"><span>$</span> workspace status<br><b>tools</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ready<br><b>files</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;available<br><b>projects</b>&nbsp;&nbsp;&nbsp;waiting for you</div>
+            <div class="console-heading"><div><p class="console-kicker">HEADQUARTERS ONLINE</p><h2>Systems aligned</h2></div><span class="system-pulse" aria-hidden="true"></span></div>
+            <div class="system-map" aria-hidden="true">
+              <svg viewBox="0 0 560 255" role="img">
+                <defs><radialGradient id="core-glow"><stop offset="0" stop-color="#59d9df" stop-opacity=".26"/><stop offset="1" stop-color="#59d9df" stop-opacity="0"/></radialGradient></defs>
+                <circle class="map-glow" cx="280" cy="128" r="116" fill="url(#core-glow)"/>
+                <circle class="map-ring map-ring-one" cx="280" cy="128" r="76"/>
+                <circle class="map-ring map-ring-two" cx="280" cy="128" r="112"/>
+                <path class="map-link link-one" d="M280 128 130 62M280 128 444 68M280 128 466 190M280 128 112 196"/>
+                <circle class="map-core" cx="280" cy="128" r="35"/><circle class="map-core-inner" cx="280" cy="128" r="13"/>
+                <g class="map-node node-one"><circle cx="130" cy="62" r="10"/><text x="130" y="40">AI</text></g>
+                <g class="map-node node-two"><circle cx="444" cy="68" r="10"/><text x="444" y="46">TOOLS</text></g>
+                <g class="map-node node-three"><circle cx="466" cy="190" r="10"/><text x="466" y="220">APPS</text></g>
+                <g class="map-node node-four"><circle cx="112" cy="196" r="10"/><text x="112" y="226">FILES</text></g>
+                <g class="data-particle"><circle r="3"><animateMotion dur="3s" repeatCount="indefinite" path="M130 62 L280 128"/></circle></g>
+                <g class="data-particle particle-delay"><circle r="3"><animateMotion dur="3s" begin="-1.5s" repeatCount="indefinite" path="M466 190 L280 128"/></circle></g>
+              </svg>
+              <div class="core-label"><strong>WH</strong><span>CORE</span></div>
+            </div>
+            <div class="signal-strip"><span>LIVE</span><svg viewBox="0 0 320 34" preserveAspectRatio="none" aria-hidden="true"><path d="M0 23h38l8-8 8 12 10-20 10 16h34l8-5 8 5h45l7-9 9 13 9-18 11 14h42l8-6 9 6h58"/></svg><b>READY</b></div>
           </div>
         </div>
       </div>
