@@ -2,6 +2,7 @@ const PRODUCTS = [
   {
     key: "ghost",
     name: "Ghost",
+    icon: "/assets/product-icons/ghost-headquarters.webp",
     level: "Essential Headquarters",
     description: "A quiet, focused presence. Your essential AI workspace.",
     price: "$99",
@@ -12,6 +13,7 @@ const PRODUCTS = [
   {
     key: "shadow",
     name: "Shadow",
+    icon: "/assets/product-icons/shadow-headquarters.webp",
     level: "Advanced Headquarters",
     description: "A deeper presence that follows your work. A richer, more complete headquarters.",
     price: "$169",
@@ -23,6 +25,7 @@ const PRODUCTS = [
   {
     key: "sentinel",
     name: "Sentinel",
+    icon: "/assets/product-icons/sentinel-headquarters.webp",
     level: "High-Capacity Headquarters",
     description: "A powerful presence that stays ready. Built for demanding work.",
     price: "$399",
@@ -39,7 +42,10 @@ class ProductCatalog extends HTMLElement {
       <article class="product-card product-${product.key}${product.featured ? " product-featured" : ""}">
         <div class="product-topline"><span class="product-index">0${index + 1}</span><span class="product-status">${product.available ? "Available" : "Price pending"}</span></div>
         <p class="product-family">${product.level}</p>
-        <h3>${product.name}</h3>
+        <div class="product-heading">
+          <img class="product-icon" src="${product.icon}" alt="" width="512" height="512" loading="lazy" decoding="async">
+          <h3>${product.name}</h3>
+        </div>
         <p class="product-description">${product.description}</p>
         <div class="product-price"><strong>${product.price}</strong>${product.cadence ? `<span>${product.cadence}</span>` : ""}</div>
         <ul class="spec-list" aria-label="${product.name} specifications">${product.specs.map((spec) => `<li>${spec}</li>`).join("")}</ul>
