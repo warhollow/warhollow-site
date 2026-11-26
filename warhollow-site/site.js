@@ -15,7 +15,7 @@ function header() {
 
 function footer() {
   return `<footer class="site-footer"><div class="shell footer-inner">
-    <div class="footer-brand"><a class="brand" href="/">${mark}<span>Warhollow</span></a><p>Your Personal AI Headquarters.<br>AI infrastructure, simplified.</p></div>
+    <div class="footer-brand"><a class="brand" href="/">${mark}<span>Warhollow</span></a><p>Your AI Headquarters.<br>AI infrastructure, simplified.</p></div>
     <nav class="footer-links" aria-label="Footer navigation"><a href="/#headquarters">Headquarters</a><a href="/#how-it-works">How It Works</a><a href="${portalUrl}">Customer Portal</a><a href="mailto:wh@thewarhollow.com">Contact</a><a href="/privacy.html">Privacy Policy</a><a href="/terms.html">Terms of Service</a></nav>
     <div class="copyright">© 2026 Warhollow LLC · U.S.-based · Globally accessible</div>
   </div></footer>`;
